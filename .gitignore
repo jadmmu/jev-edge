@@ -1,0 +1,43 @@
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Local model weights and runtimes
+models/
+llama.cpp/
+startlux/
+*.gguf
+*.safetensors
+*.bin
+
+# Experiment artifacts
+results/raw/
+results/tmp/
+results/logs/
+*.log
+*.tmp
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
