@@ -1,0 +1,19 @@
+{
+  "name": "q8_randomized_blocks",
+  "dataset": "experiments/datasets/benchmark_20.jsonl",
+  "endpoint": "http://127.0.0.1:8090/v1/systemone",
+  "model": "startlux-q8",
+  "seed": 20261024,
+  "blocks": 10,
+  "questions_per_block": 20,
+  "warmup_requests": 20,
+  "measured_requests": 200,
+  "execution": "sequential",
+  "outputs": {
+    "schedule": "results/tables/q8_randomized_<UTC_TIMESTAMP>_schedule.json",
+    "stem": "q8_randomized_<UTC_TIMESTAMP>",
+    "jsonl": "results/raw/q8_randomized_<UTC_TIMESTAMP>.jsonl",
+    "csv": "results/q8_randomized_<UTC_TIMESTAMP>.csv",
+    "summary": "results/tables/q8_randomized_<UTC_TIMESTAMP>.json"
+  }
+}

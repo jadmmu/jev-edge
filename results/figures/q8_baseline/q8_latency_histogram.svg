@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+<style>text{font-family:Arial,sans-serif;fill:#202124} .title{font-size:22px;font-weight:700} .axis{font-size:14px} .tick{font-size:11px} .caption{font-size:12px;fill:#4a4a4a} .grid{stroke:#d9dde3;stroke-width:1} .axisline{stroke:#202124;stroke-width:1.5}</style>
+<text x="550.0" y="32" text-anchor="middle" class="title">Q8 baseline end-to-end latency</text>
+<line x1="85.00" y1="575.00" x2="1065.00" y2="575.00" class="grid"/>
+<text x="75.00" y="579.00" text-anchor="end" class="tick">0</text>
+<line x1="85.00" y1="473.00" x2="1065.00" y2="473.00" class="grid"/>
+<text x="75.00" y="477.00" text-anchor="end" class="tick">24</text>
+<line x1="85.00" y1="371.00" x2="1065.00" y2="371.00" class="grid"/>
+<text x="75.00" y="375.00" text-anchor="end" class="tick">48</text>
+<line x1="85.00" y1="269.00" x2="1065.00" y2="269.00" class="grid"/>
+<text x="75.00" y="273.00" text-anchor="end" class="tick">72</text>
+<line x1="85.00" y1="167.00" x2="1065.00" y2="167.00" class="grid"/>
+<text x="75.00" y="171.00" text-anchor="end" class="tick">96</text>
+<line x1="85.00" y1="65.00" x2="1065.00" y2="65.00" class="grid"/>
+<text x="75.00" y="69.00" text-anchor="end" class="tick">120</text>
+<rect x="86.00" y="65.00" width="47.00" height="510.00" fill="#3b82f6" opacity="0.82"/>
+<rect x="135.00" y="575.00" width="47.00" height="0.00" fill="#3b82f6" opacity="0.82"/>
+<rect x="184.00" y="575.00" width="47.00" height="0.00" fill="#3b82f6" opacity="0.82"/>
+<rect x="233.00" y="575.00" width="47.00" height="0.00" fill="#3b82f6" opacity="0.82"/>
+<rect x="282.00" y="575.00" width="47.00" height="0.00" fill="#3b82f6" opacity="0.82"/>
+<rect x="331.00" y="575.00" width="47.00" height="0.00" fill="#3b82f6" opacity="0.82"/>
+<rect x="380.00" y="575.00" width="47.00" height="0.00" fill="#3b82f6" opacity="0.82"/>
+<rect x="429.00" y="575.00" width="47.00" height="0.00" fill="#3b82f6" opacity="0.82"/>
+<rect x="478.00" y="575.00" width="47.00" height="0.00" fill="#3b82f6" opacity="0.82"/>
+<rect x="527.00" y="575.00" width="47.00" height="0.00" fill="#3b82f6" opacity="0.82"/>
+<rect x="576.00" y="575.00" width="47.00" height="0.00" fill="#3b82f6" opacity="0.82"/>
+<rect x="625.00" y="575.00" width="47.00" height="0.00" fill="#3b82f6" opacity="0.82"/>
+<rect x="674.00" y="575.00" width="47.00" height="0.00" fill="#3b82f6" opacity="0.82"/>
+<rect x="723.00" y="575.00" width="47.00" height="0.00" fill="#3b82f6" opacity="0.82"/>
+<rect x="772.00" y="575.00" width="47.00" height="0.00" fill="#3b82f6" opacity="0.82"/>
+<rect x="821.00" y="562.25" width="47.00" height="12.75" fill="#3b82f6" opacity="0.82"/>
+<rect x="870.00" y="400.75" width="47.00" height="174.25" fill="#3b82f6" opacity="0.82"/>
+<rect x="919.00" y="451.75" width="47.00" height="123.25" fill="#3b82f6" opacity="0.82"/>
+<rect x="968.00" y="553.75" width="47.00" height="21.25" fill="#3b82f6" opacity="0.82"/>
+<rect x="1017.00" y="566.50" width="47.00" height="8.50" fill="#3b82f6" opacity="0.82"/>
+<line x1="85.00" y1="575.00" x2="1065.00" y2="575.00" class="axisline"/>
+<line x1="85.00" y1="65.00" x2="85.00" y2="575.00" class="axisline"/>
+<line x1="85.00" y1="575.00" x2="85.00" y2="581.00" class="axisline"/>
+<text x="85.00" y="598.00" text-anchor="middle" class="tick">310</text>
+<line x1="281.00" y1="575.00" x2="281.00" y2="581.00" class="axisline"/>
+<text x="281.00" y="598.00" text-anchor="middle" class="tick">829</text>
+<line x1="477.00" y1="575.00" x2="477.00" y2="581.00" class="axisline"/>
+<text x="477.00" y="598.00" text-anchor="middle" class="tick">1348</text>
+<line x1="673.00" y1="575.00" x2="673.00" y2="581.00" class="axisline"/>
+<text x="673.00" y="598.00" text-anchor="middle" class="tick">1866</text>
+<line x1="869.00" y1="575.00" x2="869.00" y2="581.00" class="axisline"/>
+<text x="869.00" y="598.00" text-anchor="middle" class="tick">2385</text>
+<line x1="1065.00" y1="575.00" x2="1065.00" y2="581.00" class="axisline"/>
+<text x="1065.00" y="598.00" text-anchor="middle" class="tick">2904</text>
+<text x="575.00" y="628.00" text-anchor="middle" class="axis">Wall-clock latency (ms)</text>
+<text x="20.00" y="320.00" text-anchor="middle" class="axis" transform="rotate(-90 20.00 320.00)">Observations</text>
+<text x="1065.00" y="628.00" text-anchor="end" class="caption">n = 200</text>
+</svg>

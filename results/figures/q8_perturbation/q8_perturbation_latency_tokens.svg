@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+<style>text{font-family:Arial,sans-serif;fill:#202124}.title{font-size:22px;font-weight:700}.axis{font-size:14px}.tick{font-size:11px}.caption{font-size:12px;fill:#4a4a4a}.grid{stroke:#d9dde3;stroke-width:1}.axisline{stroke:#202124;stroke-width:1.5}</style>
+<text x="550.0" y="32" text-anchor="middle" class="title">Latency versus reported input token count</text>
+<line x1="90.00" y1="575.00" x2="1065.00" y2="575.00" class="grid"/>
+<text x="80.00" y="579.00" text-anchor="end" class="tick">0</text>
+<line x1="90.00" y1="473.00" x2="1065.00" y2="473.00" class="grid"/>
+<text x="80.00" y="477.00" text-anchor="end" class="tick">558</text>
+<line x1="90.00" y1="371.00" x2="1065.00" y2="371.00" class="grid"/>
+<text x="80.00" y="375.00" text-anchor="end" class="tick">1115</text>
+<line x1="90.00" y1="269.00" x2="1065.00" y2="269.00" class="grid"/>
+<text x="80.00" y="273.00" text-anchor="end" class="tick">1673</text>
+<line x1="90.00" y1="167.00" x2="1065.00" y2="167.00" class="grid"/>
+<text x="80.00" y="171.00" text-anchor="end" class="tick">2230</text>
+<line x1="90.00" y1="65.00" x2="1065.00" y2="65.00" class="grid"/>
+<text x="80.00" y="69.00" text-anchor="end" class="tick">2788</text>
+<circle cx="480.00" cy="102.64" r="5" fill="#2563eb"/>
+<text x="488.00" y="94.64" text-anchor="start" class="tick">q001 formatting</text>
+<circle cx="528.75" cy="503.57" r="5" fill="#2563eb"/>
+<text x="536.75" y="495.57" text-anchor="start" class="tick">q001 spelling</text>
+<circle cx="382.50" cy="92.83" r="5" fill="#2563eb"/>
+<text x="390.50" y="84.83" text-anchor="start" class="tick">q001 paraphrase</text>
+<circle cx="333.75" cy="104.37" r="5" fill="#2563eb"/>
+<text x="341.75" y="96.37" text-anchor="start" class="tick">q002 grammar</text>
+<circle cx="626.25" cy="502.38" r="5" fill="#2563eb"/>
+<text x="634.25" y="494.38" text-anchor="start" class="tick">q003 paraphrase</text>
+<circle cx="236.25" cy="112.03" r="5" fill="#2563eb"/>
+<text x="244.25" y="104.03" text-anchor="start" class="tick">q002 paraphrase</text>
+<circle cx="333.75" cy="89.29" r="5" fill="#2563eb"/>
+<text x="341.75" y="81.29" text-anchor="start" class="tick">q002 formatting</text>
+<circle cx="187.50" cy="507.78" r="5" fill="#2563eb"/>
+<text x="195.50" y="499.78" text-anchor="start" class="tick">q004 grammar</text>
+<circle cx="236.25" cy="506.67" r="5" fill="#2563eb"/>
+<text x="244.25" y="498.67" text-anchor="start" class="tick">q004 formatting</text>
+<circle cx="870.00" cy="97.76" r="5" fill="#2563eb"/>
+<text x="878.00" y="89.76" text-anchor="start" class="tick">q001 additional_detail</text>
+<circle cx="480.00" cy="97.51" r="5" fill="#2563eb"/>
+<text x="488.00" y="89.51" text-anchor="start" class="tick">q001 control</text>
+<circle cx="285.00" cy="504.35" r="5" fill="#2563eb"/>
+<text x="293.00" y="496.35" text-anchor="start" class="tick">q004 spelling</text>
+<circle cx="723.75" cy="502.76" r="5" fill="#2563eb"/>
+<text x="731.75" y="494.76" text-anchor="start" class="tick">q003 formatting</text>
+<circle cx="138.75" cy="111.89" r="5" fill="#2563eb"/>
+<text x="146.75" y="103.89" text-anchor="start" class="tick">q004 paraphrase</text>
+<circle cx="1016.25" cy="498.56" r="5" fill="#2563eb"/>
+<text x="1024.25" y="490.56" text-anchor="start" class="tick">q003 additional_detail</text>
+<circle cx="821.25" cy="94.50" r="5" fill="#2563eb"/>
+<text x="829.25" y="86.50" text-anchor="start" class="tick">q002 additional_detail</text>
+<circle cx="626.25" cy="502.99" r="5" fill="#2563eb"/>
+<text x="634.25" y="494.99" text-anchor="start" class="tick">q004 additional_detail</text>
+<circle cx="528.75" cy="105.40" r="5" fill="#2563eb"/>
+<text x="536.75" y="97.40" text-anchor="start" class="tick">q001 grammar</text>
+<circle cx="723.75" cy="502.64" r="5" fill="#2563eb"/>
+<text x="731.75" y="494.64" text-anchor="start" class="tick">q003 grammar</text>
+<circle cx="236.25" cy="506.20" r="5" fill="#2563eb"/>
+<text x="244.25" y="498.20" text-anchor="start" class="tick">q004 control</text>
+<circle cx="333.75" cy="91.64" r="5" fill="#2563eb"/>
+<text x="341.75" y="83.64" text-anchor="start" class="tick">q002 control</text>
+<circle cx="431.25" cy="101.36" r="5" fill="#2563eb"/>
+<text x="439.25" y="93.36" text-anchor="start" class="tick">q002 spelling</text>
+<circle cx="723.75" cy="501.23" r="5" fill="#2563eb"/>
+<text x="731.75" y="493.23" text-anchor="start" class="tick">q003 control</text>
+<circle cx="772.50" cy="499.66" r="5" fill="#2563eb"/>
+<text x="780.50" y="491.66" text-anchor="start" class="tick">q003 spelling</text>
+<text x="577.50" y="628.00" text-anchor="middle" class="axis">Reported input tokens</text>
+<text x="20.00" y="320.00" text-anchor="middle" class="axis" transform="rotate(-90 20.00 320.00)">Mean latency (ms)</text>
+</svg>

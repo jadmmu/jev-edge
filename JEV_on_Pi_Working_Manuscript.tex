@@ -1,0 +1,105 @@
+\documentclass[10pt,twocolumn]{article}
+\usepackage[letterpaper,margin=0.75in,columnsep=0.26in]{geometry}
+\usepackage{newtxtext,newtxmath,graphicx,booktabs,array,amsmath,hyperref,caption,enumitem,microtype}
+\hypersetup{colorlinks=false,pdfborder={0 0 0}}
+\captionsetup{font=small,labelfont=bf}
+\setlength{\parindent}{1em}\setlength{\parskip}{0pt}
+\title{\bfseries On the Latency of Local Decision Models:\\A Preliminary Study of StartLux-Decision-0.8B}
+\author{Jad T. Assaf\\Youngstown State University\\\texttt{jtassaf@student.ysu.edu}}
+\date{Working manuscript --- 28 October 2026\\\small Preliminary desktop results; edge-device evaluation pending}
+\begin{document}
+\maketitle
+\begin{abstract}
+Direct decision models return probabilities over predefined alternatives without generating free-form responses, making them candidates for low-latency edge inference. We report three desktop experiments with a locally served StartLux-Decision-v1 0.8B Q8\_0 GGUF checkpoint: a 200-request sequential baseline, a 200-request randomized replication, and a 240-request controlled input-perturbation pilot. In the baseline, 120 requests occupied a fast regime (mean 351.84 ms) and 80 a slow regime (mean 2525.40 ms). The same eight of twenty questions occupied the slow regime after randomization. In the perturbation pilot, a single transposition (``twice'' to ``twcie'') reduced mean endpoint latency from 2610.02 to 390.45 ms; a meaning-preserving invoice paraphrase increased it from 376.07 to 2531.42 ms. Both transitions recurred in all ten randomized blocks without changing the selected class. An implementation audit indicates a single next-token probability readout rather than an AutoThink reasoning path. However, timings are client-observed endpoint latencies, not isolated model execution times. The responsible mechanism is unresolved. These findings motivate backend instrumentation, quantization comparisons, and forthcoming Raspberry Pi and Jetson measurements; they do not establish edge-device feasibility.
+\end{abstract}
+\noindent\textbf{Keywords:} edge AI; decision models; latency; quantization; reproducibility; input perturbation.
+
+\section{Introduction}
+Edge deployment of compact decision models may avoid the cost of autoregressive answer generation. The JEV-on-Pi project proposes measuring decision quality, memory, response time, and energy per decision on constrained devices, including a Raspberry Pi 5, with comparisons across precision formats and model families. StartLux-Decision was introduced as an \emph{additional comparison baseline}; it is not interchangeable with the KEV-0.8B reference specified in the broader project plan.
+
+Before hardware deployment, local Q8 benchmarking exposed a pronounced separation in request latency. The present manuscript documents that observation, tests whether it survives randomized ordering, and examines the effects of controlled changes in request text. Our question is descriptive: \emph{how reproducibly does observed endpoint latency depend on the exact formulation of a decision request?} We do not infer hidden deliberation or adaptive computation from latency alone.
+
+\section{System and experimental design}
+\subsection{Model and endpoint}
+The local checkpoint was identified during a subsequent read-only architecture audit as \texttt{StartLux-Decision-0.8B-Q8\_0.gguf}, StartLux-Decision-v1, based on a Qwen3.5 architecture. The endpoint exposes a typed decision interface: each request supplies a ticket state and a three-option choice between \texttt{billing}, \texttt{shipping}, and \texttt{technical}. The local wrapper reportedly reads next-token option-letter log probabilities, applies question-type temperature scaling, and normalizes over the listed options. The upstream v1 documentation describes a single-forward-pass probability readout rather than generated output \cite{startluxv1}. No local \texttt{auto\_think} setting was identified.
+
+The recorded environment was AMD64 Windows, 12 logical CPUs, Python 3.11.9, and \texttt{llama-server.exe} version \texttt{0.7.0-dev}, build 11858, commit \texttt{303220975}. Active launch arguments, backend call counts, full hardware utilization, and server-side timing breakdown were unavailable owing to process-inspection permissions. Thus the unit measured here is \emph{client wall-clock endpoint latency}, inclusive of unisolated wrapper, communication, scheduling, and inference costs.
+
+\subsection{Dataset and protocol}
+The fixed benchmark contains twenty synthetic support-ticket questions. Eighteen have manually constructed expected labels; two are unlabeled. Each request uses the same three-choice schema, so this study cannot estimate differences between decision-task types. The first experiment used 20 warm-up observations and ten contiguous measured repetitions per question (200 measured). The second used 20 warm-ups and ten randomized blocks containing all twenty questions (200 measured). The third used four parent questions, six conditions per parent (unchanged control, spelling, grammar, formatting, paraphrase, additional detail), 24 warm-ups, and ten randomized blocks of 24 conditions (240 measured). The pilot changed only \texttt{state.ticket}; the question and criteria were held fixed. Warm-ups are excluded from all results below.
+
+All reported means are arithmetic means. Quantiles in the analysis artifacts use linear interpolation. The fast/slow threshold (1380.289 ms) was selected exploratorily from the largest sorted-latency gap in the initial baseline; it is not a preregistered cutoff or a fitted latent-state model. Paired intervals in the perturbation report are approximate descriptive 95\% intervals, not confirmatory inference after correction for multiple comparisons.
+
+\section{Results}
+\subsection{Baseline and randomized replication}
+Table~\ref{tab:aggregate} summarizes the two twenty-question runs. The initial bimodal separation was substantial: the fast partition contained 120 measurements (mean 351.84 ms), whereas the slow partition contained 80 (mean 2525.40 ms). All ten measured repetitions of eight specific questions occupied the slow regime. All remaining questions occupied the fast regime.
+
+\begin{table}[t]
+\centering\caption{Client endpoint latency across the two 20-question experiments (milliseconds; $n=200$ each).}\label{tab:aggregate}
+\small\begin{tabular}{lrr}\toprule
+Statistic & Sequential & Randomized\\\midrule
+Mean & 1221.26 & 1254.33\\
+Median & 365.28 & 386.57\\
+P90 & 2582.43 & 2656.52\\
+P95 & 2612.05 & 2687.84\\
+Standard deviation & 1066.73 & 1090.39\\\bottomrule
+\end{tabular}
+\end{table}
+
+The sequential run showed a negative chronological trial-index correlation ($r=-0.467$), but trial order was confounded with contiguous question blocks. After randomized blocking, the chronological correlation was approximately $-0.0048$, and the same eight questions remained slow, with no question changing regime. An additive descriptive regression with question identity, within-block position, and block number yielded $R^2=0.9957$; this combined fit must not be interpreted as the unique contribution of question identity. Figure~\ref{fig:question} displays the question-level replication.
+
+\begin{figure*}[t]
+\centering\includegraphics[width=0.88\textwidth]{q8_baseline_vs_randomized_question_latency.svg.pdf}
+\caption{Existing analysis figure comparing per-question endpoint latencies in sequential and randomized Q8 runs. The stable high- and low-latency groups persist after interleaving question order. Source: randomized-analysis artifact.}\label{fig:question}
+\end{figure*}
+
+Selected answers and full probability distributions were identical across the ten repetitions of each question in the sequential baseline. All 180 labeled baseline trials agreed with their manually assigned labels; this is \emph{not} an independent estimate of generalization accuracy, because labels and examples were constructed together.
+
+\subsection{Controlled perturbations}
+The perturbation pilot yielded 240 successful measured requests and no reported failures. Two of the twenty non-control variants crossed the exploratory latency threshold relative to their controls; the remaining variants preserved their parents' regime. Table~\ref{tab:pairs} gives the two transitions.
+
+\begin{table*}[t]
+\centering\caption{Regime-switching perturbations; means across ten randomized-block observations per condition. Difference is variant minus control. Approximate intervals are from the paired-analysis artifact.}\label{tab:pairs}
+\small\begin{tabular}{p{0.27\textwidth}rrrrl}\toprule
+Condition & Control (ms) & Variant (ms) & Difference (ms) & Tokens & Paired 95\% interval (ms)\\\midrule
+Q001: \texttt{twice} $\rightarrow$ \texttt{twcie} & 2610.02 & 390.45 & $-2219.57$ & 106 $\rightarrow$ 107 & [$-2288.53$, $-2150.61$]\\
+Q004: invoice-request paraphrase & 376.07 & 2531.42 & $+2155.35$ & 101 $\rightarrow$ 99 & [$2083.75$, $2226.95$]\\\bottomrule
+\end{tabular}
+\end{table*}
+
+For Q001, the original ticket was ``I was charged twice for order \#4411 and the app still shows it as unpaid.'' The spelling condition replaced only \texttt{twice} with \texttt{twcie}. The mean fell by about 85\%, despite one additional reported prompt token. For Q004, the control was ``Please send me a copy of the invoice for last month's subscription payment.'' The paraphrase was ``Could you provide the invoice for my subscription payment from last month?'' Its mean rose by about 573\%, despite two fewer reported prompt tokens.
+
+Both changes remained on their respective new sides of the latency threshold in all ten blocks, and both retained the selected \texttt{billing} decision. The reported maximum Jensen--Shannon divergences for these pairs were $0.000202$ and $0.000326$ bits, respectively; maximum absolute probability shifts were $0.00777$ and $0.00176$. Thus the selected classification was unchanged, though the probabilities were not exactly identical. The small number of parent questions, post-hoc selection of striking examples, and lack of independent semantic-equivalence annotation limit generalization.
+
+\begin{figure*}[t]
+\centering\includegraphics[width=0.88\textwidth]{q8_perturbation_control_differences.svg.pdf}
+\caption{Existing perturbation-analysis figure showing condition-versus-control latency differences. The large Q001 spelling and Q004 paraphrase changes stand out among the twenty tested variants. This is exploratory, not a multiplicity-adjusted hypothesis test.}\label{fig:perturb}
+\end{figure*}
+
+\section{Implementation audit and interpretation}
+A read-only audit identified a v1 single-readout probability path, not a configured AutoThink mechanism. The wrapper derives option probabilities from backend next-token logits, calibrates by question type, and normalizes the candidates. The two regime transitions do not follow prompt-token count monotonically: the faster Q001 variant has more tokens, while the slower Q004 variant has fewer. Token count \emph{alone} is therefore insufficient to explain the observations.
+
+This does not identify the mechanism. Plausible alternatives include wrapper-side request differences, repeated or conditional backend calls, inference configuration, prompt-cache behavior, server scheduling, or other unmeasured effects. Since server-side prompt-evaluation and generation timings, active launch flags, and backend-call counts were unavailable, the present measurements cannot isolate model-forward cost or demonstrate input-dependent computation within the network. Nor do they show that a typo suppresses ``reasoning'': the audited v1 path does not ordinarily generate a reasoning trace.
+
+\section{Threats to validity}
+\textbf{Construct validity.} The measured quantity is endpoint wall-clock latency rather than model-only execution time. Reported output-token counts do not directly establish the number of internal operations. The fast/slow threshold is exploratory.\\
+\textbf{Internal validity.} The sequential design confounded question and order; randomized replication reduced that concern but does not exclude unobserved backend behavior. Active server settings and request counts remain unverified.\\
+\textbf{External validity.} The dataset comprises twenty synthetic, similarly structured support tickets, and perturbations cover only four parent questions. Manual labels and semantic judgments were not independently validated. No results were collected on Raspberry Pi, Jetson, Hailo acceleration hardware, or KEV.\\
+\textbf{Statistical validity.} Repetitions share an endpoint and environment; exploratory contrasts were selected after inspection. The approximate paired intervals do not account for selection or multiple testing. The findings are descriptive and hypothesis-generating.
+
+\section{Next phase: edge-device evaluation}
+The next phase should (i) record exact model hashes, backend build, launch arguments, CPU/GPU placement, threading, batch and context settings; (ii) instrument request counts and backend stage timings on a small diagnostic set; (iii) benchmark verified Q8 and Q4 variants under matched configurations, reporting latency, memory, failure rate, decision agreement, and probability divergence; and (iv) repeat a defined workload on the Raspberry Pi 5 and available Jetson Orin, documenting the precise device variants and power instrumentation. For the original edge question, \emph{energy per decision} should be measured directly or derived from synchronized power traces rather than inferred from latency. KEV and any generative or rule-based comparators should be evaluated as distinct baselines with matched task definitions. Hailo-10H compatibility and supported execution paths require separate verification.
+
+The edge results should be appended as a new empirical section rather than implied by the current desktop data. Whether the latency anomaly merits an independent mechanistic study should be decided after backend instrumentation and consultation with the project supervisor.
+
+\section{Conclusion}
+Across 640 measured desktop requests, StartLux-Decision-0.8B Q8 exhibited two well-separated, reproducible endpoint-latency regimes. Randomized replication preserved question-level regime membership, and two controlled text changes consistently switched regimes while preserving the chosen class. An implementation audit supports a single-readout decision path but does not resolve the source of the timing difference. The result is a reproducible \emph{measurement anomaly}, not evidence of adaptive reasoning or demonstrated edge feasibility. The forthcoming device and quantization experiments are necessary to address the project's principal deployment claims.
+
+\section*{Data and reproducibility statement}
+This draft is based on the supplied local artifacts: \texttt{benchmark\_20.jsonl}; \texttt{q8\_analysis\_report.json}; \texttt{q8\_randomized\_analysis\_report.json}; \texttt{q8\_perturbation\_pilot.jsonl}; and \texttt{q8\_perturbation\_analysis\_report.json}, with corresponding original SVG figures. The reported architecture audit was supplied as a summary; the three audit Markdown files were not independently inspected for this draft. Raw experiment files and the full executable launch configuration should be archived alongside any eventual public manuscript. No new inference was run to prepare this document.
+
+\begin{thebibliography}{9}\small
+\bibitem{startluxv1} StartLuxLabs, ``StartLux-Decision-v1,'' project documentation and inference description, \url{https://github.com/StartLuxLabs/StartLux-Decision/tree/main/v1}, accessed October 2026.
+\bibitem{startluxapi} StartLuxLabs, ``StartLux-Decision API reference,'' \url{https://github.com/StartLuxLabs/StartLux-Decision/blob/main/docs/api.md}, accessed October 2026.
+\end{thebibliography}
+\end{document}

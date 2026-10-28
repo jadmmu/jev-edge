@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="900" viewBox="0 0 1250 900">
+<style>text{font-family:Arial,sans-serif;fill:#202124} .title{font-size:22px;font-weight:700} .axis{font-size:14px} .tick{font-size:11px} .caption{font-size:12px;fill:#4a4a4a} .grid{stroke:#d9dde3;stroke-width:1} .axisline{stroke:#202124;stroke-width:1.5}</style>
+<text x="625.0" y="32" text-anchor="middle" class="title">Latency distribution by question</text>
+<line x1="190.00" y1="65.00" x2="190.00" y2="820.00" class="grid"/>
+<text x="190.00" y="842.00" text-anchor="middle" class="tick">0</text>
+<line x1="395.00" y1="65.00" x2="395.00" y2="820.00" class="grid"/>
+<text x="395.00" y="842.00" text-anchor="middle" class="tick">581</text>
+<line x1="600.00" y1="65.00" x2="600.00" y2="820.00" class="grid"/>
+<text x="600.00" y="842.00" text-anchor="middle" class="tick">1161</text>
+<line x1="805.00" y1="65.00" x2="805.00" y2="820.00" class="grid"/>
+<text x="805.00" y="842.00" text-anchor="middle" class="tick">1742</text>
+<line x1="1010.00" y1="65.00" x2="1010.00" y2="820.00" class="grid"/>
+<text x="1010.00" y="842.00" text-anchor="middle" class="tick">2323</text>
+<line x1="1215.00" y1="65.00" x2="1215.00" y2="820.00" class="grid"/>
+<text x="1215.00" y="842.00" text-anchor="middle" class="tick">2904</text>
+<text x="178.00" y="69.00" text-anchor="end" class="tick">q001</text>
+<line x1="1033.87" y1="65.00" x2="1215.00" y2="65.00" class="axisline"/>
+<line x1="1033.87" y1="57.00" x2="1033.87" y2="73.00" class="axisline"/>
+<line x1="1215.00" y1="57.00" x2="1215.00" y2="73.00" class="axisline"/>
+<rect x="1089.53" y="55.00" width="55.93" height="20" fill="#60a5fa" stroke="#1d4ed8"/>
+<line x1="1107.17" y1="55.00" x2="1107.17" y2="75.00" class="axisline" stroke="#111827" stroke-width="2"/>
+<text x="178.00" y="108.74" text-anchor="end" class="tick">q002</text>
+<line x1="1023.91" y1="104.74" x2="1116.19" y2="104.74" class="axisline"/>
+<line x1="1023.91" y1="96.74" x2="1023.91" y2="112.74" class="axisline"/>
+<line x1="1116.19" y1="96.74" x2="1116.19" y2="112.74" class="axisline"/>
+<rect x="1068.31" y="94.74" width="13.22" height="20" fill="#60a5fa" stroke="#1d4ed8"/>
+<line x1="1075.13" y1="94.74" x2="1075.13" y2="114.74" class="axisline" stroke="#111827" stroke-width="2"/>
+<text x="178.00" y="148.47" text-anchor="end" class="tick">q003</text>
+<line x1="313.72" y1="144.47" x2="325.41" y2="144.47" class="axisline"/>
+<line x1="313.72" y1="136.47" x2="313.72" y2="152.47" class="axisline"/>
+<line x1="325.41" y1="136.47" x2="325.41" y2="152.47" class="axisline"/>
+<rect x="317.37" y="134.47" width="2.29" height="20" fill="#60a5fa" stroke="#1d4ed8"/>
+<line x1="318.81" y1="134.47" x2="318.81" y2="154.47" class="axisline" stroke="#111827" stroke-width="2"/>
+<text x="178.00" y="188.21" text-anchor="end" class="tick">q004</text>
+<line x1="304.23" y1="184.21" x2="316.85" y2="184.21" class="axisline"/>
+<line x1="304.23" y1="176.21" x2="304.23" y2="192.21" class="axisline"/>
+<line x1="316.85" y1="176.21" x2="316.85" y2="192.21" class="axisline"/>
+<rect x="309.32" y="174.21" width="6.12" height="20" fill="#60a5fa" stroke="#1d4ed8"/>
+<line x1="314.26" y1="174.21" x2="314.26" y2="194.21" class="axisline" stroke="#111827" stroke-width="2"/>
+<text x="178.00" y="227.95" text-anchor="end" class="tick">q005</text>
+<line x1="1049.75" y1="223.95" x2="1111.76" y2="223.95" class="axisline"/>
+<line x1="1049.75" y1="215.95" x2="1049.75" y2="231.95" class="axisline"/>
+<line x1="1111.76" y1="215.95" x2="1111.76" y2="231.95" class="axisline"/>
+<rect x="1055.72" y="213.95" width="29.01" height="20" fill="#60a5fa" stroke="#1d4ed8"/>
+<line x1="1061.79" y1="213.95" x2="1061.79" y2="233.95" class="axisline" stroke="#111827" stroke-width="2"/>
+<text x="178.00" y="267.68" text-anchor="end" class="tick">q006</text>
+<line x1="307.98" y1="263.68" x2="321.44" y2="263.68" class="axisline"/>
+<line x1="307.98" y1="255.68" x2="307.98" y2="271.68" class="axisline"/>
+<line x1="321.44" y1="255.68" x2="321.44" y2="271.68" class="axisline"/>
+<rect x="310.14" y="253.68" width="5.54" height="20" fill="#60a5fa" stroke="#1d4ed8"/>
+<line x1="312.86" y1="253.68" x2="312.86" y2="273.68" class="axisline" stroke="#111827" stroke-width="2"/>
+<text x="178.00" y="307.42" text-anchor="end" class="tick">q007</text>
+<line x1="1058.99" y1="303.42" x2="1153.85" y2="303.42" class="axisline"/>
+<line x1="1058.99" y1="295.42" x2="1058.99" y2="311.42" class="axisline"/>
+<line x1="1153.85" y1="295.42" x2="1153.85" y2="311.42" class="axisline"/>
+<rect x="1072.81" y="293.42" width="37.48" height="20" fill="#60a5fa" stroke="#1d4ed8"/>
+<line x1="1082.47" y1="293.42" x2="1082.47" y2="313.42" class="axisline" stroke="#111827" stroke-width="2"/>
+<text x="178.00" y="347.16" text-anchor="end" class="tick">q008</text>
+<line x1="1041.53" y1="343.16" x2="1110.98" y2="343.16" class="axisline"/>
+<line x1="1041.53" y1="335.16" x2="1041.53" y2="351.16" class="axisline"/>
+<line x1="1110.98" y1="335.16" x2="1110.98" y2="351.16" class="axisline"/>
+<rect x="1064.00" y="333.16" width="28.75" height="20" fill="#60a5fa" stroke="#1d4ed8"/>
+<line x1="1076.94" y1="333.16" x2="1076.94" y2="353.16" class="axisline" stroke="#111827" stroke-width="2"/>
+<text x="178.00" y="386.89" text-anchor="end" class="tick">q009</text>
+<line x1="308.74" y1="382.89" x2="314.41" y2="382.89" class="axisline"/>
+<line x1="308.74" y1="374.89" x2="308.74" y2="390.89" class="axisline"/>
+<line x1="314.41" y1="374.89" x2="314.41" y2="390.89" class="axisline"/>
+<rect x="308.88" y="372.89" width="3.26" height="20" fill="#60a5fa" stroke="#1d4ed8"/>
+<line x1="310.35" y1="372.89" x2="310.35" y2="392.89" class="axisline" stroke="#111827" stroke-width="2"/>
+<text x="178.00" y="426.63" text-anchor="end" class="tick">q010</text>
+<line x1="1010.85" y1="422.63" x2="1117.22" y2="422.63" class="axisline"/>
+<line x1="1010.85" y1="414.63" x2="1010.85" y2="430.63" class="axisline"/>
+<line x1="1117.22" y1="414.63" x2="1117.22" y2="430.63" class="axisline"/>
+<rect x="1048.48" y="412.63" width="18.96" height="20" fill="#60a5fa" stroke="#1d4ed8"/>
+<line x1="1058.18" y1="412.63" x2="1058.18" y2="432.63" class="axisline" stroke="#111827" stroke-width="2"/>
+<text x="178.00" y="466.37" text-anchor="end" class="tick">q011</text>
+<line x1="315.96" y1="462.37" x2="343.62" y2="462.37" class="axisline"/>
+<line x1="315.96" y1="454.37" x2="315.96" y2="470.37" class="axisline"/>
+<line x1="343.62" y1="454.37" x2="343.62" y2="470.37" class="axisline"/>
+<rect x="320.31" y="452.37" width="3.61" height="20" fill="#60a5fa" stroke="#1d4ed8"/>
+<line x1="321.39" y1="452.37" x2="321.39" y2="472.37" class="axisline" stroke="#111827" stroke-width="2"/>
+<text x="178.00" y="506.11" text-anchor="end" class="tick">q012</text>
+<line x1="1048.83" y1="502.11" x2="1179.34" y2="502.11" class="axisline"/>
+<line x1="1048.83" y1="494.11" x2="1048.83" y2="510.11" class="axisline"/>
+<line x1="1179.34" y1="494.11" x2="1179.34" y2="510.11" class="axisline"/>
+<rect x="1064.50" y="492.11" width="39.45" height="20" fill="#60a5fa" stroke="#1d4ed8"/>
+<line x1="1081.36" y1="492.11" x2="1081.36" y2="512.11" class="axisline" stroke="#111827" stroke-width="2"/>
+<text x="178.00" y="545.84" text-anchor="end" class="tick">q013</text>
+<line x1="1017.37" y1="541.84" x2="1104.03" y2="541.84" class="axisline"/>
+<line x1="1017.37" y1="533.84" x2="1017.37" y2="549.84" class="axisline"/>
+<line x1="1104.03" y1="533.84" x2="1104.03" y2="549.84" class="axisline"/>
+<rect x="1056.72" y="531.84" width="29.23" height="20" fill="#60a5fa" stroke="#1d4ed8"/>
+<line x1="1067.65" y1="531.84" x2="1067.65" y2="551.84" class="axisline" stroke="#111827" stroke-width="2"/>
+<text x="178.00" y="585.58" text-anchor="end" class="tick">q014</text>
+<line x1="306.06" y1="581.58" x2="316.79" y2="581.58" class="axisline"/>
+<line x1="306.06" y1="573.58" x2="306.06" y2="589.58" class="axisline"/>
+<line x1="316.79" y1="573.58" x2="316.79" y2="589.58" class="axisline"/>
+<rect x="310.74" y="571.58" width="4.05" height="20" fill="#60a5fa" stroke="#1d4ed8"/>
+<line x1="313.27" y1="571.58" x2="313.27" y2="591.58" class="axisline" stroke="#111827" stroke-width="2"/>
+<text x="178.00" y="625.32" text-anchor="end" class="tick">q015</text>
+<line x1="299.48" y1="621.32" x2="319.91" y2="621.32" class="axisline"/>
+<line x1="299.48" y1="613.32" x2="299.48" y2="629.32" class="axisline"/>
+<line x1="319.91" y1="613.32" x2="319.91" y2="629.32" class="axisline"/>
+<rect x="309.94" y="611.32" width="4.45" height="20" fill="#60a5fa" stroke="#1d4ed8"/>
+<line x1="312.01" y1="611.32" x2="312.01" y2="631.32" class="axisline" stroke="#111827" stroke-width="2"/>
+<text x="178.00" y="665.05" text-anchor="end" class="tick">q016</text>
+<line x1="305.32" y1="661.05" x2="326.94" y2="661.05" class="axisline"/>
+<line x1="305.32" y1="653.05" x2="305.32" y2="669.05" class="axisline"/>
+<line x1="326.94" y1="653.05" x2="326.94" y2="669.05" class="axisline"/>
+<rect x="309.19" y="651.05" width="4.02" height="20" fill="#60a5fa" stroke="#1d4ed8"/>
+<line x1="312.64" y1="651.05" x2="312.64" y2="671.05" class="axisline" stroke="#111827" stroke-width="2"/>
+<text x="178.00" y="704.79" text-anchor="end" class="tick">q017</text>
+<line x1="300.37" y1="700.79" x2="330.91" y2="700.79" class="axisline"/>
+<line x1="300.37" y1="692.79" x2="300.37" y2="708.79" class="axisline"/>
+<line x1="330.91" y1="692.79" x2="330.91" y2="708.79" class="axisline"/>
+<rect x="306.30" y="690.79" width="7.12" height="20" fill="#60a5fa" stroke="#1d4ed8"/>
+<line x1="310.79" y1="690.79" x2="310.79" y2="710.79" class="axisline" stroke="#111827" stroke-width="2"/>
+<text x="178.00" y="744.53" text-anchor="end" class="tick">q018</text>
+<line x1="301.55" y1="740.53" x2="316.47" y2="740.53" class="axisline"/>
+<line x1="301.55" y1="732.53" x2="301.55" y2="748.53" class="axisline"/>
+<line x1="316.47" y1="732.53" x2="316.47" y2="748.53" class="axisline"/>
+<rect x="307.44" y="730.53" width="6.65" height="20" fill="#60a5fa" stroke="#1d4ed8"/>
+<line x1="311.10" y1="730.53" x2="311.10" y2="750.53" class="axisline" stroke="#111827" stroke-width="2"/>
+<text x="178.00" y="784.26" text-anchor="end" class="tick">q019</text>
+<line x1="304.76" y1="780.26" x2="319.47" y2="780.26" class="axisline"/>
+<line x1="304.76" y1="772.26" x2="304.76" y2="788.26" class="axisline"/>
+<line x1="319.47" y1="772.26" x2="319.47" y2="788.26" class="axisline"/>
+<rect x="311.46" y="770.26" width="6.76" height="20" fill="#60a5fa" stroke="#1d4ed8"/>
+<line x1="315.53" y1="770.26" x2="315.53" y2="790.26" class="axisline" stroke="#111827" stroke-width="2"/>
+<text x="178.00" y="824.00" text-anchor="end" class="tick">q020</text>
+<line x1="315.57" y1="820.00" x2="321.63" y2="820.00" class="axisline"/>
+<line x1="315.57" y1="812.00" x2="315.57" y2="828.00" class="axisline"/>
+<line x1="321.63" y1="812.00" x2="321.63" y2="828.00" class="axisline"/>
+<rect x="316.58" y="810.00" width="2.87" height="20" fill="#60a5fa" stroke="#1d4ed8"/>
+<line x1="317.45" y1="810.00" x2="317.45" y2="830.00" class="axisline" stroke="#111827" stroke-width="2"/>
+<line x1="190.00" y1="65.00" x2="190.00" y2="820.00" class="axisline"/>
+<line x1="190.00" y1="820.00" x2="1215.00" y2="820.00" class="axisline"/>
+<text x="702.50" y="878.00" text-anchor="middle" class="axis">Wall-clock latency (ms)</text>
+<text x="24.00" y="442.50" text-anchor="middle" class="axis" transform="rotate(-90 24.00 442.50)">Question ID</text>
+</svg>

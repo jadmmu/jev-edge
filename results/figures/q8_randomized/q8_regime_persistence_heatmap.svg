@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="800" viewBox="0 0 900 800">
+<style>text{font-family:Arial,sans-serif;fill:#202124}.title{font-size:22px;font-weight:700}.axis{font-size:14px}.tick{font-size:11px}.caption{font-size:12px;fill:#4a4a4a}.grid{stroke:#d9dde3;stroke-width:1}.axisline{stroke:#202124;stroke-width:1.5}</style>
+<text x="450.0" y="32" text-anchor="middle" class="title">Fast/slow regime persistence by question</text>
+<text x="347.50" y="57.00" text-anchor="middle" class="axis">Baseline slow fraction</text>
+<text x="692.50" y="57.00" text-anchor="middle" class="axis">Randomized slow fraction</text>
+<text x="165.00" y="95.38" text-anchor="end" class="tick">q001</text>
+<rect x="175.00" y="75.00" width="345.00" height="32.75" fill="#b91c1c" stroke="white"/>
+<text x="347.50" y="95.38" text-anchor="middle" class="tick">1.0</text>
+<rect x="520.00" y="75.00" width="345.00" height="32.75" fill="#b91c1c" stroke="white"/>
+<text x="692.50" y="95.38" text-anchor="middle" class="tick">1.0</text>
+<text x="165.00" y="128.12" text-anchor="end" class="tick">q002</text>
+<rect x="175.00" y="107.75" width="345.00" height="32.75" fill="#b91c1c" stroke="white"/>
+<text x="347.50" y="128.12" text-anchor="middle" class="tick">1.0</text>
+<rect x="520.00" y="107.75" width="345.00" height="32.75" fill="#b91c1c" stroke="white"/>
+<text x="692.50" y="128.12" text-anchor="middle" class="tick">1.0</text>
+<text x="165.00" y="160.88" text-anchor="end" class="tick">q003</text>
+<rect x="175.00" y="140.50" width="345.00" height="32.75" fill="#dbeafe" stroke="white"/>
+<text x="347.50" y="160.88" text-anchor="middle" class="tick">0.0</text>
+<rect x="520.00" y="140.50" width="345.00" height="32.75" fill="#dbeafe" stroke="white"/>
+<text x="692.50" y="160.88" text-anchor="middle" class="tick">0.0</text>
+<text x="165.00" y="193.62" text-anchor="end" class="tick">q004</text>
+<rect x="175.00" y="173.25" width="345.00" height="32.75" fill="#dbeafe" stroke="white"/>
+<text x="347.50" y="193.62" text-anchor="middle" class="tick">0.0</text>
+<rect x="520.00" y="173.25" width="345.00" height="32.75" fill="#dbeafe" stroke="white"/>
+<text x="692.50" y="193.62" text-anchor="middle" class="tick">0.0</text>
+<text x="165.00" y="226.38" text-anchor="end" class="tick">q005</text>
+<rect x="175.00" y="206.00" width="345.00" height="32.75" fill="#b91c1c" stroke="white"/>
+<text x="347.50" y="226.38" text-anchor="middle" class="tick">1.0</text>
+<rect x="520.00" y="206.00" width="345.00" height="32.75" fill="#b91c1c" stroke="white"/>
+<text x="692.50" y="226.38" text-anchor="middle" class="tick">1.0</text>
+<text x="165.00" y="259.12" text-anchor="end" class="tick">q006</text>
+<rect x="175.00" y="238.75" width="345.00" height="32.75" fill="#dbeafe" stroke="white"/>
+<text x="347.50" y="259.12" text-anchor="middle" class="tick">0.0</text>
+<rect x="520.00" y="238.75" width="345.00" height="32.75" fill="#dbeafe" stroke="white"/>
+<text x="692.50" y="259.12" text-anchor="middle" class="tick">0.0</text>
+<text x="165.00" y="291.88" text-anchor="end" class="tick">q007</text>
+<rect x="175.00" y="271.50" width="345.00" height="32.75" fill="#b91c1c" stroke="white"/>
+<text x="347.50" y="291.88" text-anchor="middle" class="tick">1.0</text>
+<rect x="520.00" y="271.50" width="345.00" height="32.75" fill="#b91c1c" stroke="white"/>
+<text x="692.50" y="291.88" text-anchor="middle" class="tick">1.0</text>
+<text x="165.00" y="324.62" text-anchor="end" class="tick">q008</text>
+<rect x="175.00" y="304.25" width="345.00" height="32.75" fill="#b91c1c" stroke="white"/>
+<text x="347.50" y="324.62" text-anchor="middle" class="tick">1.0</text>
+<rect x="520.00" y="304.25" width="345.00" height="32.75" fill="#b91c1c" stroke="white"/>
+<text x="692.50" y="324.62" text-anchor="middle" class="tick">1.0</text>
+<text x="165.00" y="357.38" text-anchor="end" class="tick">q009</text>
+<rect x="175.00" y="337.00" width="345.00" height="32.75" fill="#dbeafe" stroke="white"/>
+<text x="347.50" y="357.38" text-anchor="middle" class="tick">0.0</text>
+<rect x="520.00" y="337.00" width="345.00" height="32.75" fill="#dbeafe" stroke="white"/>
+<text x="692.50" y="357.38" text-anchor="middle" class="tick">0.0</text>
+<text x="165.00" y="390.12" text-anchor="end" class="tick">q010</text>
+<rect x="175.00" y="369.75" width="345.00" height="32.75" fill="#b91c1c" stroke="white"/>
+<text x="347.50" y="390.12" text-anchor="middle" class="tick">1.0</text>
+<rect x="520.00" y="369.75" width="345.00" height="32.75" fill="#b91c1c" stroke="white"/>
+<text x="692.50" y="390.12" text-anchor="middle" class="tick">1.0</text>
+<text x="165.00" y="422.88" text-anchor="end" class="tick">q011</text>
+<rect x="175.00" y="402.50" width="345.00" height="32.75" fill="#dbeafe" stroke="white"/>
+<text x="347.50" y="422.88" text-anchor="middle" class="tick">0.0</text>
+<rect x="520.00" y="402.50" width="345.00" height="32.75" fill="#dbeafe" stroke="white"/>
+<text x="692.50" y="422.88" text-anchor="middle" class="tick">0.0</text>
+<text x="165.00" y="455.62" text-anchor="end" class="tick">q012</text>
+<rect x="175.00" y="435.25" width="345.00" height="32.75" fill="#b91c1c" stroke="white"/>
+<text x="347.50" y="455.62" text-anchor="middle" class="tick">1.0</text>
+<rect x="520.00" y="435.25" width="345.00" height="32.75" fill="#b91c1c" stroke="white"/>
+<text x="692.50" y="455.62" text-anchor="middle" class="tick">1.0</text>
+<text x="165.00" y="488.38" text-anchor="end" class="tick">q013</text>
+<rect x="175.00" y="468.00" width="345.00" height="32.75" fill="#b91c1c" stroke="white"/>
+<text x="347.50" y="488.38" text-anchor="middle" class="tick">1.0</text>
+<rect x="520.00" y="468.00" width="345.00" height="32.75" fill="#b91c1c" stroke="white"/>
+<text x="692.50" y="488.38" text-anchor="middle" class="tick">1.0</text>
+<text x="165.00" y="521.12" text-anchor="end" class="tick">q014</text>
+<rect x="175.00" y="500.75" width="345.00" height="32.75" fill="#dbeafe" stroke="white"/>
+<text x="347.50" y="521.12" text-anchor="middle" class="tick">0.0</text>
+<rect x="520.00" y="500.75" width="345.00" height="32.75" fill="#dbeafe" stroke="white"/>
+<text x="692.50" y="521.12" text-anchor="middle" class="tick">0.0</text>
+<text x="165.00" y="553.88" text-anchor="end" class="tick">q015</text>
+<rect x="175.00" y="533.50" width="345.00" height="32.75" fill="#dbeafe" stroke="white"/>
+<text x="347.50" y="553.88" text-anchor="middle" class="tick">0.0</text>
+<rect x="520.00" y="533.50" width="345.00" height="32.75" fill="#dbeafe" stroke="white"/>
+<text x="692.50" y="553.88" text-anchor="middle" class="tick">0.0</text>
+<text x="165.00" y="586.62" text-anchor="end" class="tick">q016</text>
+<rect x="175.00" y="566.25" width="345.00" height="32.75" fill="#dbeafe" stroke="white"/>
+<text x="347.50" y="586.62" text-anchor="middle" class="tick">0.0</text>
+<rect x="520.00" y="566.25" width="345.00" height="32.75" fill="#dbeafe" stroke="white"/>
+<text x="692.50" y="586.62" text-anchor="middle" class="tick">0.0</text>
+<text x="165.00" y="619.38" text-anchor="end" class="tick">q017</text>
+<rect x="175.00" y="599.00" width="345.00" height="32.75" fill="#dbeafe" stroke="white"/>
+<text x="347.50" y="619.38" text-anchor="middle" class="tick">0.0</text>
+<rect x="520.00" y="599.00" width="345.00" height="32.75" fill="#dbeafe" stroke="white"/>
+<text x="692.50" y="619.38" text-anchor="middle" class="tick">0.0</text>
+<text x="165.00" y="652.12" text-anchor="end" class="tick">q018</text>
+<rect x="175.00" y="631.75" width="345.00" height="32.75" fill="#dbeafe" stroke="white"/>
+<text x="347.50" y="652.12" text-anchor="middle" class="tick">0.0</text>
+<rect x="520.00" y="631.75" width="345.00" height="32.75" fill="#dbeafe" stroke="white"/>
+<text x="692.50" y="652.12" text-anchor="middle" class="tick">0.0</text>
+<text x="165.00" y="684.88" text-anchor="end" class="tick">q019</text>
+<rect x="175.00" y="664.50" width="345.00" height="32.75" fill="#dbeafe" stroke="white"/>
+<text x="347.50" y="684.88" text-anchor="middle" class="tick">0.0</text>
+<rect x="520.00" y="664.50" width="345.00" height="32.75" fill="#dbeafe" stroke="white"/>
+<text x="692.50" y="684.88" text-anchor="middle" class="tick">0.0</text>
+<text x="165.00" y="717.62" text-anchor="end" class="tick">q020</text>
+<rect x="175.00" y="697.25" width="345.00" height="32.75" fill="#dbeafe" stroke="white"/>
+<text x="347.50" y="717.62" text-anchor="middle" class="tick">0.0</text>
+<rect x="520.00" y="697.25" width="345.00" height="32.75" fill="#dbeafe" stroke="white"/>
+<text x="692.50" y="717.62" text-anchor="middle" class="tick">0.0</text>
+<text x="450.00" y="780.00" text-anchor="middle" class="caption">Slow regime threshold: 1380.289 ms</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+<style>text{font-family:Arial,sans-serif;fill:#202124}.title{font-size:22px;font-weight:700}.axis{font-size:14px}.tick{font-size:11px}.caption{font-size:12px;fill:#4a4a4a}.grid{stroke:#d9dde3;stroke-width:1}.axisline{stroke:#202124;stroke-width:1.5}</style>
+<text x="600.0" y="32" text-anchor="middle" class="title">Probability divergence versus latency change</text>
+<line x1="630.00" y1="65.00" x2="630.00" y2="575.00" class="grid"/>
+<circle cx="95.00" cy="574.90" r="5" fill="#7c3aed"/>
+<circle cx="619.62" cy="574.98" r="5" fill="#7c3aed"/>
+<circle cx="623.25" cy="574.94" r="5" fill="#7c3aed"/>
+<circle cx="636.17" cy="574.83" r="5" fill="#7c3aed"/>
+<circle cx="629.68" cy="574.63" r="5" fill="#7c3aed"/>
+<circle cx="617.19" cy="575.00" r="5" fill="#7c3aed"/>
+<circle cx="613.23" cy="575.00" r="5" fill="#7c3aed"/>
+<circle cx="633.10" cy="575.00" r="5" fill="#7c3aed"/>
+<circle cx="603.13" cy="574.97" r="5" fill="#7c3aed"/>
+<circle cx="626.23" cy="574.92" r="5" fill="#7c3aed"/>
+<circle cx="632.06" cy="574.99" r="5" fill="#7c3aed"/>
+<circle cx="628.14" cy="575.00" r="5" fill="#7c3aed"/>
+<circle cx="627.97" cy="574.99" r="5" fill="#7c3aed"/>
+<circle cx="628.47" cy="574.97" r="5" fill="#7c3aed"/>
+<circle cx="633.51" cy="574.97" r="5" fill="#7c3aed"/>
+<circle cx="632.44" cy="574.99" r="5" fill="#7c3aed"/>
+<circle cx="627.92" cy="575.00" r="5" fill="#7c3aed"/>
+<circle cx="629.38" cy="575.00" r="5" fill="#7c3aed"/>
+<circle cx="1149.52" cy="574.83" r="5" fill="#7c3aed"/>
+<circle cx="634.23" cy="574.98" r="5" fill="#7c3aed"/>
+<text x="630.00" y="628.00" text-anchor="middle" class="axis">Paired mean latency change (ms)</text>
+<text x="20.00" y="320.00" text-anchor="middle" class="axis" transform="rotate(-90 20.00 320.00)">Maximum JS divergence (bits)</text>
+</svg>

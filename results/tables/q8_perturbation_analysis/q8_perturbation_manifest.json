@@ -1,0 +1,21 @@
+{
+  "run_id": "20261025T040301Z",
+  "files": {
+    "results\\raw\\q8_perturbation_20261025T040301Z.jsonl": {
+      "sha256": "f317876f7fec590c80cfb40e32a5ecd3e2ca240943f7e954d839ec962007082d",
+      "bytes": 370080
+    },
+    "results\\q8_perturbation_20261025T040301Z.csv": {
+      "sha256": "9edb8b9af783c81e741bfcaa728fbc3ec1257d88e6657ebc20ed5df8be520aa8",
+      "bytes": 232732
+    },
+    "results\\tables\\q8_perturbation_20261025T040301Z.json": {
+      "sha256": "c86540694c2267bc54ee96b358a8abf24ba04b288a311b64f13814268591a632",
+      "bytes": 6964
+    },
+    "results\\tables\\q8_perturbation_20261025T040301Z_schedule.json": {
+      "sha256": "a1f4dcfea1b5819ee2e9706d8d0bc0e8b0f914ff27c22f939df5167de492b719",
+      "bytes": 11547
+    }
+  }
+}

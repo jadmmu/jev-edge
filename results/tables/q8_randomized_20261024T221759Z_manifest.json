@@ -1,0 +1,38 @@
+{
+  "run_id": "20261024T221759Z",
+  "record_counts": {
+    "randomized_observations": 220,
+    "randomized_measured": 200,
+    "randomized_warmups": 20
+  },
+  "files": {
+    "results\\raw\\q8_randomized_20261024T221759Z.jsonl": {
+      "sha256": "70cc2c0173cc2a60abe0a68998f81dbaaf4ca6e0035c472e09cd20ecde4d3faf",
+      "bytes": 267634
+    },
+    "results\\q8_randomized_20261024T221759Z.csv": {
+      "sha256": "cc4c27f442178b9c4c214815c7c7b8cf63e6b75aa395a85467952ed47035d61b",
+      "bytes": 177300
+    },
+    "results\\tables\\q8_randomized_20261024T221759Z.json": {
+      "sha256": "ee1e52a5323c7fdee2d0c0b49400fd1eac79840a1eab363352c16a310e7437cd",
+      "bytes": 5794
+    },
+    "results\\tables\\q8_randomized_20261024T221759Z_schedule.json": {
+      "sha256": "c5bf50ce38f82ea4f09e86838a869978d66c2267ff40e0f7b880540dbe75a596",
+      "bytes": 7147
+    },
+    "results\\raw\\q8_baseline_20261024T193824Z.jsonl": {
+      "sha256": "8e1cc5488293cbe36cfc9357686e660adb04ca7b52a290be7656c58267dd9151",
+      "bytes": 259338
+    },
+    "results\\q8_baseline_20261024T193824Z.csv": {
+      "sha256": "a2ee991f8667d1341adbeff54305f558c44a98b87d772bf554b230fba9e23a2a",
+      "bytes": 176294
+    },
+    "results\\tables\\q8_baseline_20261024T193824Z.json": {
+      "sha256": "6ddcf36efe8f88196ca1d152641731a69cfd70d8a15e0f180d6a5ad37824ba7c",
+      "bytes": 5783
+    }
+  }
+}

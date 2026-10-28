@@ -1,0 +1,18 @@
+{
+  "name": "q8_perturbation_pilot",
+  "dataset": "experiments/datasets/q8_perturbation_pilot.jsonl",
+  "endpoint": "http://127.0.0.1:8090/v1/systemone",
+  "model": "startlux-q8",
+  "seed": 20261025,
+  "blocks": 10,
+  "conditions_per_block": 24,
+  "warmup_requests": 24,
+  "measured_requests": 240,
+  "execution": "sequential",
+  "outputs": {
+    "schedule": "results/tables/q8_perturbation_<UTC_TIMESTAMP>_schedule.json",
+    "jsonl": "results/raw/q8_perturbation_<UTC_TIMESTAMP>.jsonl",
+    "csv": "results/q8_perturbation_<UTC_TIMESTAMP>.csv",
+    "summary": "results/tables/q8_perturbation_<UTC_TIMESTAMP>.json"
+  }
+}

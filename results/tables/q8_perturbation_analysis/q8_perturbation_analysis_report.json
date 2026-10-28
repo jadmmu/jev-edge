@@ -1,0 +1,1029 @@
+{
+  "run_id": "20261025T040301Z",
+  "threshold_ms": 1380.289,
+  "record_counts": {
+    "observations": 264,
+    "warmups": 24,
+    "measured": 240
+  },
+  "condition_summary": {
+    "q001_billing_duplicate::formatting": {
+      "parent_question_id": "q001_billing_duplicate",
+      "variant_type": "formatting",
+      "count": 10,
+      "mean_ms": 2582.0055,
+      "median_ms": 2583.152,
+      "p25_ms": 2552.2915,
+      "p75_ms": 2629.3872499999998,
+      "p50_ms": 2583.152,
+      "p90_ms": 2656.9358,
+      "p95_ms": 2669.9624,
+      "p99_ms": 2680.38368,
+      "stddev_ms": 69.82082084915648,
+      "min_ms": 2431.424,
+      "max_ms": 2682.989,
+      "slow_regime_fraction": 1.0,
+      "input_tokens_available": 10,
+      "input_tokens_mean": 106,
+      "input_tokens_values": [
+        106
+      ]
+    },
+    "q001_billing_duplicate::spelling": {
+      "parent_question_id": "q001_billing_duplicate",
+      "variant_type": "spelling",
+      "count": 10,
+      "mean_ms": 390.45349999999996,
+      "median_ms": 393.0435,
+      "p25_ms": 387.41975,
+      "p75_ms": 394.92,
+      "p50_ms": 393.0435,
+      "p90_ms": 399.2199,
+      "p95_ms": 399.88995,
+      "p99_ms": 400.42599,
+      "stddev_ms": 8.192443936335483,
+      "min_ms": 374.861,
+      "max_ms": 400.56,
+      "slow_regime_fraction": 0.0,
+      "input_tokens_available": 10,
+      "input_tokens_mean": 107,
+      "input_tokens_values": [
+        107
+      ]
+    },
+    "q001_billing_duplicate::paraphrase": {
+      "parent_question_id": "q001_billing_duplicate",
+      "variant_type": "paraphrase",
+      "count": 10,
+      "mean_ms": 2635.621,
+      "median_ms": 2687.4535,
+      "p25_ms": 2539.40675,
+      "p75_ms": 2703.065,
+      "p50_ms": 2687.4535,
+      "p90_ms": 2715.2662,
+      "p95_ms": 2718.9436,
+      "p99_ms": 2721.8855200000003,
+      "stddev_ms": 86.30588579928956,
+      "min_ms": 2503.355,
+      "max_ms": 2722.621,
+      "slow_regime_fraction": 1.0,
+      "input_tokens_available": 10,
+      "input_tokens_mean": 104,
+      "input_tokens_values": [
+        104
+      ]
+    },
+    "q002_password_lockout::grammar": {
+      "parent_question_id": "q002_password_lockout",
+      "variant_type": "grammar",
+      "count": 10,
+      "mean_ms": 2572.5452000000005,
+      "median_ms": 2558.828,
+      "p25_ms": 2533.32125,
+      "p75_ms": 2606.583,
+      "p50_ms": 2558.828,
+      "p90_ms": 2638.2535000000003,
+      "p95_ms": 2649.29425,
+      "p99_ms": 2658.12685,
+      "stddev_ms": 48.257960238286145,
+      "min_ms": 2512.466,
+      "max_ms": 2660.335,
+      "slow_regime_fraction": 1.0,
+      "input_tokens_available": 10,
+      "input_tokens_mean": 103,
+      "input_tokens_values": [
+        103
+      ]
+    },
+    "q003_missing_package::paraphrase": {
+      "parent_question_id": "q003_missing_package",
+      "variant_type": "paraphrase",
+      "count": 10,
+      "mean_ms": 396.9325,
+      "median_ms": 398.6675,
+      "p25_ms": 391.00350000000003,
+      "p75_ms": 403.058,
+      "p50_ms": 398.6675,
+      "p90_ms": 409.1435,
+      "p95_ms": 412.97974999999997,
+      "p99_ms": 416.04875,
+      "stddev_ms": 12.035323603875383,
+      "min_ms": 371.027,
+      "max_ms": 416.816,
+      "slow_regime_fraction": 0.0,
+      "input_tokens_available": 10,
+      "input_tokens_mean": 109,
+      "input_tokens_values": [
+        109
+      ]
+    },
+    "q002_password_lockout::paraphrase": {
+      "parent_question_id": "q002_password_lockout",
+      "variant_type": "paraphrase",
+      "count": 10,
+      "mean_ms": 2530.6620000000003,
+      "median_ms": 2509.3379999999997,
+      "p25_ms": 2484.59025,
+      "p75_ms": 2541.9485,
+      "p50_ms": 2509.3379999999997,
+      "p90_ms": 2648.8647,
+      "p95_ms": 2653.03485,
+      "p99_ms": 2656.37097,
+      "stddev_ms": 65.70837021567345,
+      "min_ms": 2457.272,
+      "max_ms": 2657.205,
+      "slow_regime_fraction": 1.0,
+      "input_tokens_available": 10,
+      "input_tokens_mean": 101,
+      "input_tokens_values": [
+        101
+      ]
+    },
+    "q002_password_lockout::formatting": {
+      "parent_question_id": "q002_password_lockout",
+      "variant_type": "formatting",
+      "count": 10,
+      "mean_ms": 2655.0013999999996,
+      "median_ms": 2634.6245,
+      "p25_ms": 2599.664,
+      "p75_ms": 2722.0985,
+      "p50_ms": 2634.6245,
+      "p90_ms": 2801.2223,
+      "p95_ms": 2808.7701500000003,
+      "p99_ms": 2814.80843,
+      "stddev_ms": 99.5246257638782,
+      "min_ms": 2517.034,
+      "max_ms": 2816.318,
+      "slow_regime_fraction": 1.0,
+      "input_tokens_available": 10,
+      "input_tokens_mean": 103,
+      "input_tokens_values": [
+        103
+      ]
+    },
+    "q004_invoice_copy::grammar": {
+      "parent_question_id": "q004_invoice_copy",
+      "variant_type": "grammar",
+      "count": 10,
+      "mean_ms": 367.4236,
+      "median_ms": 365.8065,
+      "p25_ms": 359.77425000000005,
+      "p75_ms": 374.319,
+      "p50_ms": 365.8065,
+      "p90_ms": 380.0144,
+      "p95_ms": 381.0962,
+      "p99_ms": 381.96164,
+      "stddev_ms": 8.871300617158676,
+      "min_ms": 356.718,
+      "max_ms": 382.178,
+      "slow_regime_fraction": 0.0,
+      "input_tokens_available": 10,
+      "input_tokens_mean": 100,
+      "input_tokens_values": [
+        100
+      ]
+    },
+    "q004_invoice_copy::formatting": {
+      "parent_question_id": "q004_invoice_copy",
+      "variant_type": "formatting",
+      "count": 10,
+      "mean_ms": 373.4777,
+      "median_ms": 374.7985,
+      "p25_ms": 364.08124999999995,
+      "p75_ms": 379.06625,
+      "p50_ms": 374.7985,
+      "p90_ms": 386.33529999999996,
+      "p95_ms": 392.04715,
+      "p99_ms": 396.61663,
+      "stddev_ms": 12.386798828188015,
+      "min_ms": 354.833,
+      "max_ms": 397.759,
+      "slow_regime_fraction": 0.0,
+      "input_tokens_available": 10,
+      "input_tokens_mean": 101,
+      "input_tokens_values": [
+        101
+      ]
+    },
+    "q001_billing_duplicate::additional_detail": {
+      "parent_question_id": "q001_billing_duplicate",
+      "variant_type": "additional_detail",
+      "count": 10,
+      "mean_ms": 2608.7059,
+      "median_ms": 2583.0964999999997,
+      "p25_ms": 2571.8232500000004,
+      "p75_ms": 2631.6324999999997,
+      "p50_ms": 2583.0964999999997,
+      "p90_ms": 2699.6439,
+      "p95_ms": 2764.10595,
+      "p99_ms": 2815.6755900000003,
+      "stddev_ms": 90.40751814473184,
+      "min_ms": 2493.412,
+      "max_ms": 2828.568,
+      "slow_regime_fraction": 1.0,
+      "input_tokens_available": 10,
+      "input_tokens_mean": 114,
+      "input_tokens_values": [
+        114
+      ]
+    },
+    "q001_billing_duplicate::control": {
+      "parent_question_id": "q001_billing_duplicate",
+      "variant_type": "control",
+      "count": 10,
+      "mean_ms": 2610.0244,
+      "median_ms": 2604.558,
+      "p25_ms": 2586.6025,
+      "p75_ms": 2621.54825,
+      "p50_ms": 2604.558,
+      "p90_ms": 2693.5758,
+      "p95_ms": 2772.9458999999997,
+      "p99_ms": 2836.44198,
+      "stddev_ms": 102.97844671891298,
+      "min_ms": 2428.573,
+      "max_ms": 2852.316,
+      "slow_regime_fraction": 1.0,
+      "input_tokens_available": 10,
+      "input_tokens_mean": 106,
+      "input_tokens_values": [
+        106
+      ]
+    },
+    "q004_invoice_copy::spelling": {
+      "parent_question_id": "q004_invoice_copy",
+      "variant_type": "spelling",
+      "count": 10,
+      "mean_ms": 386.1942,
+      "median_ms": 378.8425,
+      "p25_ms": 370.10024999999996,
+      "p75_ms": 388.52750000000003,
+      "p50_ms": 378.8425,
+      "p90_ms": 411.8676,
+      "p95_ms": 432.45779999999996,
+      "p99_ms": 448.92996,
+      "stddev_ms": 25.755748301301594,
+      "min_ms": 359.879,
+      "max_ms": 453.048,
+      "slow_regime_fraction": 0.0,
+      "input_tokens_available": 10,
+      "input_tokens_mean": 102,
+      "input_tokens_values": [
+        102
+      ]
+    },
+    "q003_missing_package::formatting": {
+      "parent_question_id": "q003_missing_package",
+      "variant_type": "formatting",
+      "count": 10,
+      "mean_ms": 394.8614,
+      "median_ms": 395.323,
+      "p25_ms": 387.54425,
+      "p75_ms": 401.57525,
+      "p50_ms": 395.323,
+      "p90_ms": 405.6161,
+      "p95_ms": 409.33355,
+      "p99_ms": 412.30751,
+      "stddev_ms": 9.957255176001066,
+      "min_ms": 379.189,
+      "max_ms": 413.051,
+      "slow_regime_fraction": 0.0,
+      "input_tokens_available": 10,
+      "input_tokens_mean": 111,
+      "input_tokens_values": [
+        111
+      ]
+    },
+    "q004_invoice_copy::paraphrase": {
+      "parent_question_id": "q004_invoice_copy",
+      "variant_type": "paraphrase",
+      "count": 10,
+      "mean_ms": 2531.4213,
+      "median_ms": 2539.5825,
+      "p25_ms": 2502.2610000000004,
+      "p75_ms": 2564.196,
+      "p50_ms": 2539.5825,
+      "p90_ms": 2599.4557999999997,
+      "p95_ms": 2692.2538999999997,
+      "p99_ms": 2766.49238,
+      "stddev_ms": 112.49916141291901,
+      "min_ms": 2348.923,
+      "max_ms": 2785.052,
+      "slow_regime_fraction": 1.0,
+      "input_tokens_available": 10,
+      "input_tokens_mean": 99,
+      "input_tokens_values": [
+        99
+      ]
+    },
+    "q003_missing_package::additional_detail": {
+      "parent_question_id": "q003_missing_package",
+      "variant_type": "additional_detail",
+      "count": 10,
+      "mean_ms": 417.8343,
+      "median_ms": 412.6565,
+      "p25_ms": 398.13025000000005,
+      "p75_ms": 423.2955,
+      "p50_ms": 412.6565,
+      "p90_ms": 469.0382,
+      "p95_ms": 476.1581,
+      "p99_ms": 481.85402000000005,
+      "stddev_ms": 32.877427022350766,
+      "min_ms": 376.504,
+      "max_ms": 483.278,
+      "slow_regime_fraction": 0.0,
+      "input_tokens_available": 10,
+      "input_tokens_mean": 117,
+      "input_tokens_values": [
+        117
+      ]
+    },
+    "q002_password_lockout::additional_detail": {
+      "parent_question_id": "q002_password_lockout",
+      "variant_type": "additional_detail",
+      "count": 10,
+      "mean_ms": 2626.5108,
+      "median_ms": 2610.283,
+      "p25_ms": 2576.88925,
+      "p75_ms": 2665.798,
+      "p50_ms": 2610.283,
+      "p90_ms": 2692.0045999999998,
+      "p95_ms": 2742.0517999999997,
+      "p99_ms": 2782.0895600000003,
+      "stddev_ms": 72.3738851241247,
+      "min_ms": 2525.777,
+      "max_ms": 2792.099,
+      "slow_regime_fraction": 1.0,
+      "input_tokens_available": 10,
+      "input_tokens_mean": 113,
+      "input_tokens_values": [
+        113
+      ]
+    },
+    "q004_invoice_copy::additional_detail": {
+      "parent_question_id": "q004_invoice_copy",
+      "variant_type": "additional_detail",
+      "count": 10,
+      "mean_ms": 393.61,
+      "median_ms": 393.1575,
+      "p25_ms": 388.18675,
+      "p75_ms": 401.19275,
+      "p50_ms": 393.1575,
+      "p90_ms": 403.04400000000004,
+      "p95_ms": 404.349,
+      "p99_ms": 405.393,
+      "stddev_ms": 8.22972033546706,
+      "min_ms": 379.592,
+      "max_ms": 405.654,
+      "slow_regime_fraction": 0.0,
+      "input_tokens_available": 10,
+      "input_tokens_mean": 109,
+      "input_tokens_values": [
+        109
+      ]
+    },
+    "q001_billing_duplicate::grammar": {
+      "parent_question_id": "q001_billing_duplicate",
+      "variant_type": "grammar",
+      "count": 10,
+      "mean_ms": 2566.9411000000005,
+      "median_ms": 2569.0375000000004,
+      "p25_ms": 2503.6992499999997,
+      "p75_ms": 2645.95425,
+      "p50_ms": 2569.0375000000004,
+      "p90_ms": 2683.429,
+      "p95_ms": 2688.5005,
+      "p99_ms": 2692.5577000000003,
+      "stddev_ms": 92.13245128449584,
+      "min_ms": 2429.789,
+      "max_ms": 2693.572,
+      "slow_regime_fraction": 1.0,
+      "input_tokens_available": 10,
+      "input_tokens_mean": 107,
+      "input_tokens_values": [
+        107
+      ]
+    },
+    "q003_missing_package::grammar": {
+      "parent_question_id": "q003_missing_package",
+      "variant_type": "grammar",
+      "count": 10,
+      "mean_ms": 395.54240000000004,
+      "median_ms": 398.222,
+      "p25_ms": 385.15525,
+      "p75_ms": 409.0005,
+      "p50_ms": 398.222,
+      "p90_ms": 412.6172,
+      "p95_ms": 414.0041,
+      "p99_ms": 415.11362,
+      "stddev_ms": 15.99548325121815,
+      "min_ms": 362.049,
+      "max_ms": 415.391,
+      "slow_regime_fraction": 0.0,
+      "input_tokens_available": 10,
+      "input_tokens_mean": 111,
+      "input_tokens_values": [
+        111
+      ]
+    },
+    "q004_invoice_copy::control": {
+      "parent_question_id": "q004_invoice_copy",
+      "variant_type": "control",
+      "count": 10,
+      "mean_ms": 376.0703,
+      "median_ms": 375.98299999999995,
+      "p25_ms": 364.6215,
+      "p75_ms": 386.58325,
+      "p50_ms": 375.98299999999995,
+      "p90_ms": 389.0801,
+      "p95_ms": 397.18955,
+      "p99_ms": 403.67710999999997,
+      "stddev_ms": 15.230224168081044,
+      "min_ms": 356.021,
+      "max_ms": 405.299,
+      "slow_regime_fraction": 0.0,
+      "input_tokens_available": 10,
+      "input_tokens_mean": 101,
+      "input_tokens_values": [
+        101
+      ]
+    },
+    "q002_password_lockout::control": {
+      "parent_question_id": "q002_password_lockout",
+      "variant_type": "control",
+      "count": 10,
+      "mean_ms": 2642.1382000000003,
+      "median_ms": 2625.191,
+      "p25_ms": 2532.9522500000003,
+      "p75_ms": 2715.36325,
+      "p50_ms": 2625.191,
+      "p90_ms": 2788.3606,
+      "p95_ms": 2839.0737999999997,
+      "p99_ms": 2879.64436,
+      "stddev_ms": 120.34515688784481,
+      "min_ms": 2499.167,
+      "max_ms": 2889.787,
+      "slow_regime_fraction": 1.0,
+      "input_tokens_available": 10,
+      "input_tokens_mean": 103,
+      "input_tokens_values": [
+        103
+      ]
+    },
+    "q002_password_lockout::spelling": {
+      "parent_question_id": "q002_password_lockout",
+      "variant_type": "spelling",
+      "count": 10,
+      "mean_ms": 2588.9931,
+      "median_ms": 2561.958,
+      "p25_ms": 2541.7535,
+      "p75_ms": 2646.0725,
+      "p50_ms": 2561.958,
+      "p90_ms": 2681.8891,
+      "p95_ms": 2709.9290499999997,
+      "p99_ms": 2732.36101,
+      "stddev_ms": 75.79371058926993,
+      "min_ms": 2472.524,
+      "max_ms": 2737.969,
+      "slow_regime_fraction": 1.0,
+      "input_tokens_available": 10,
+      "input_tokens_mean": 105,
+      "input_tokens_values": [
+        105
+      ]
+    },
+    "q003_missing_package::control": {
+      "parent_question_id": "q003_missing_package",
+      "variant_type": "control",
+      "count": 10,
+      "mean_ms": 403.2636,
+      "median_ms": 398.4865,
+      "p25_ms": 392.22625,
+      "p75_ms": 404.74350000000004,
+      "p50_ms": 398.4865,
+      "p90_ms": 418.65229999999997,
+      "p95_ms": 435.69514999999996,
+      "p99_ms": 449.32943,
+      "stddev_ms": 18.4233055351096,
+      "min_ms": 383.466,
+      "max_ms": 452.738,
+      "slow_regime_fraction": 0.0,
+      "input_tokens_available": 10,
+      "input_tokens_mean": 111,
+      "input_tokens_values": [
+        111
+      ]
+    },
+    "q003_missing_package::spelling": {
+      "parent_question_id": "q003_missing_package",
+      "variant_type": "spelling",
+      "count": 10,
+      "mean_ms": 411.8059,
+      "median_ms": 398.49199999999996,
+      "p25_ms": 394.26025,
+      "p75_ms": 411.89975000000004,
+      "p50_ms": 398.49199999999996,
+      "p90_ms": 453.8174,
+      "p95_ms": 476.51719999999995,
+      "p99_ms": 494.67704,
+      "stddev_ms": 34.45128024166881,
+      "min_ms": 374.842,
+      "max_ms": 499.217,
+      "slow_regime_fraction": 0.0,
+      "input_tokens_available": 10,
+      "input_tokens_mean": 112,
+      "input_tokens_values": [
+        112
+      ]
+    }
+  },
+  "paired_comparison": {
+    "q001_billing_duplicate::spelling": {
+      "parent_question_id": "q001_billing_duplicate",
+      "variant_type": "spelling",
+      "control_median_ms": 2604.558,
+      "variant_median_ms": 393.0435,
+      "median_difference_ms": -2211.5145,
+      "median_percentage_difference": -84.90939729504969,
+      "paired_mean_difference_ms": -2219.5708999999997,
+      "paired_difference_sd_ms": 111.25992439173937,
+      "paired_difference_approx_95ci_ms": [
+        -2288.5305155816995,
+        -2150.6112844183
+      ],
+      "decision_changes": 0,
+      "max_js_divergence_bits": 0.0002019483198582809,
+      "mean_js_divergence_bits": 0.0002019483198582809,
+      "max_probability_shift": 0.007767021656036377,
+      "mean_confidence_difference": -0.007767021656036377,
+      "input_token_difference_values": [
+        1
+      ]
+    },
+    "q001_billing_duplicate::grammar": {
+      "parent_question_id": "q001_billing_duplicate",
+      "variant_type": "grammar",
+      "control_median_ms": 2604.558,
+      "variant_median_ms": 2569.0375000000004,
+      "median_difference_ms": -35.52049999999963,
+      "median_percentage_difference": -1.3637822617119537,
+      "paired_mean_difference_ms": -43.083299999999916,
+      "paired_difference_sd_ms": 182.98481254042792,
+      "paired_difference_approx_95ci_ms": [
+        -156.4984618299519,
+        70.33186182995209
+      ],
+      "decision_changes": 0,
+      "max_js_divergence_bits": 3.8933061319482805e-05,
+      "mean_js_divergence_bits": 3.8933061319482805e-05,
+      "max_probability_shift": 0.0040585994720458984,
+      "mean_confidence_difference": -0.0040585994720458984,
+      "input_token_difference_values": [
+        1
+      ]
+    },
+    "q001_billing_duplicate::formatting": {
+      "parent_question_id": "q001_billing_duplicate",
+      "variant_type": "formatting",
+      "control_median_ms": 2604.558,
+      "variant_median_ms": 2583.152,
+      "median_difference_ms": -21.40599999999995,
+      "median_percentage_difference": -0.8218668964177396,
+      "paired_mean_difference_ms": -28.018899999999984,
+      "paired_difference_sd_ms": 126.74453123284401,
+      "paired_difference_approx_95ci_ms": [
+        -106.57597433456264,
+        50.53817433456267
+      ],
+      "decision_changes": 0,
+      "max_js_divergence_bits": 0.00011434537517108004,
+      "mean_js_divergence_bits": 0.00011434537517108004,
+      "max_probability_shift": 0.007096350193023682,
+      "mean_confidence_difference": -0.007096350193023682,
+      "input_token_difference_values": [
+        0
+      ]
+    },
+    "q001_billing_duplicate::paraphrase": {
+      "parent_question_id": "q001_billing_duplicate",
+      "variant_type": "paraphrase",
+      "control_median_ms": 2604.558,
+      "variant_median_ms": 2687.4535,
+      "median_difference_ms": 82.89550000000008,
+      "median_percentage_difference": 3.18270892796398,
+      "paired_mean_difference_ms": 25.59660000000008,
+      "paired_difference_sd_ms": 142.65974510483952,
+      "paired_difference_approx_95ci_ms": [
+        -62.82482609026839,
+        114.01802609026855
+      ],
+      "decision_changes": 0,
+      "max_js_divergence_bits": 0.00033122454368201756,
+      "mean_js_divergence_bits": 0.00033122454368201756,
+      "max_probability_shift": 0.011155009269714355,
+      "mean_confidence_difference": 0.011155009269714355,
+      "input_token_difference_values": [
+        -2
+      ]
+    },
+    "q001_billing_duplicate::additional_detail": {
+      "parent_question_id": "q001_billing_duplicate",
+      "variant_type": "additional_detail",
+      "control_median_ms": 2604.558,
+      "variant_median_ms": 2583.0964999999997,
+      "median_difference_ms": -21.461500000000342,
+      "median_percentage_difference": -0.8239977762061871,
+      "paired_mean_difference_ms": -1.3184999999999945,
+      "paired_difference_sd_ms": 157.73359333611293,
+      "paired_difference_approx_95ci_ms": [
+        -99.08279401911527,
+        96.44579401911527
+      ],
+      "decision_changes": 0,
+      "max_js_divergence_bits": 0.0007207531123508155,
+      "mean_js_divergence_bits": 0.0007207531123508155,
+      "max_probability_shift": 0.016625821590423584,
+      "mean_confidence_difference": 0.016625821590423584,
+      "input_token_difference_values": [
+        8
+      ]
+    },
+    "q002_password_lockout::spelling": {
+      "parent_question_id": "q002_password_lockout",
+      "variant_type": "spelling",
+      "control_median_ms": 2625.191,
+      "variant_median_ms": 2561.958,
+      "median_difference_ms": -63.23299999999972,
+      "median_percentage_difference": -2.408700928808598,
+      "paired_mean_difference_ms": -53.1451,
+      "paired_difference_sd_ms": 165.7539599067445,
+      "paired_difference_approx_95ci_ms": [
+        -155.8804687215185,
+        49.5902687215185
+      ],
+      "decision_changes": 0,
+      "max_js_divergence_bits": 3.724686269093345e-06,
+      "mean_js_divergence_bits": 3.724686269093345e-06,
+      "max_probability_shift": 0.0005263686180114746,
+      "mean_confidence_difference": -0.0005263686180114746,
+      "input_token_difference_values": [
+        2
+      ]
+    },
+    "q002_password_lockout::grammar": {
+      "parent_question_id": "q002_password_lockout",
+      "variant_type": "grammar",
+      "control_median_ms": 2625.191,
+      "variant_median_ms": 2558.828,
+      "median_difference_ms": -66.36299999999983,
+      "median_percentage_difference": -2.5279303486870033,
+      "paired_mean_difference_ms": -69.59299999999999,
+      "paired_difference_sd_ms": 149.32731457364977,
+      "paired_difference_approx_95ci_ms": [
+        -162.14702846212097,
+        22.961028462120993
+      ],
+      "decision_changes": 0,
+      "max_js_divergence_bits": 2.778016182563393e-06,
+      "mean_js_divergence_bits": 2.778016182563393e-06,
+      "max_probability_shift": 0.00045228004455566406,
+      "mean_confidence_difference": -0.00045228004455566406,
+      "input_token_difference_values": [
+        0
+      ]
+    },
+    "q002_password_lockout::formatting": {
+      "parent_question_id": "q002_password_lockout",
+      "variant_type": "formatting",
+      "control_median_ms": 2625.191,
+      "variant_median_ms": 2634.6245,
+      "median_difference_ms": 9.433500000000095,
+      "median_percentage_difference": 0.3593452819242522,
+      "paired_mean_difference_ms": 12.863200000000097,
+      "paired_difference_sd_ms": 114.92718603417265,
+      "paired_difference_approx_95ci_ms": [
+        -58.36940789660829,
+        84.09580789660848
+      ],
+      "decision_changes": 0,
+      "max_js_divergence_bits": 2.15731543202608e-06,
+      "mean_js_divergence_bits": 2.15731543202608e-06,
+      "max_probability_shift": 0.00029608234763145447,
+      "mean_confidence_difference": 0.0001964569091796875,
+      "input_token_difference_values": [
+        0
+      ]
+    },
+    "q002_password_lockout::paraphrase": {
+      "parent_question_id": "q002_password_lockout",
+      "variant_type": "paraphrase",
+      "control_median_ms": 2625.191,
+      "variant_median_ms": 2509.3379999999997,
+      "median_difference_ms": -115.85300000000007,
+      "median_percentage_difference": -4.413126511556686,
+      "paired_mean_difference_ms": -111.47620000000006,
+      "paired_difference_sd_ms": 155.89381314485965,
+      "paired_difference_approx_95ci_ms": [
+        -208.1001864426249,
+        -14.852213557375222
+      ],
+      "decision_changes": 0,
+      "max_js_divergence_bits": 6.349978683016771e-05,
+      "mean_js_divergence_bits": 6.349978683016771e-05,
+      "max_probability_shift": 0.00151747465133667,
+      "mean_confidence_difference": 0.00151747465133667,
+      "input_token_difference_values": [
+        -2
+      ]
+    },
+    "q002_password_lockout::additional_detail": {
+      "parent_question_id": "q002_password_lockout",
+      "variant_type": "additional_detail",
+      "control_median_ms": 2625.191,
+      "variant_median_ms": 2610.283,
+      "median_difference_ms": -14.907999999999902,
+      "median_percentage_difference": -0.5678824893122025,
+      "paired_mean_difference_ms": -15.627400000000033,
+      "paired_difference_sd_ms": 156.39110907820526,
+      "paired_difference_approx_95ci_ms": [
+        -112.55961365544512,
+        81.30481365544505
+      ],
+      "decision_changes": 0,
+      "max_js_divergence_bits": 0.00014899670464602228,
+      "mean_js_divergence_bits": 0.00014899670464602228,
+      "max_probability_shift": 0.0034999847412109375,
+      "mean_confidence_difference": -0.0034999847412109375,
+      "input_token_difference_values": [
+        10
+      ]
+    },
+    "q003_missing_package::spelling": {
+      "parent_question_id": "q003_missing_package",
+      "variant_type": "spelling",
+      "control_median_ms": 398.4865,
+      "variant_median_ms": 398.49199999999996,
+      "median_difference_ms": 0.005499999999983629,
+      "median_percentage_difference": 0.0013802224165645836,
+      "paired_mean_difference_ms": 8.542299999999988,
+      "paired_difference_sd_ms": 38.458697268194975,
+      "paired_difference_approx_95ci_ms": [
+        -15.294647525236774,
+        32.37924752523675
+      ],
+      "decision_changes": 0,
+      "max_js_divergence_bits": 2.7116349311499067e-05,
+      "mean_js_divergence_bits": 2.7116349311499067e-05,
+      "max_probability_shift": 0.0015655159950256348,
+      "mean_confidence_difference": -0.0015655159950256348,
+      "input_token_difference_values": [
+        1
+      ]
+    },
+    "q003_missing_package::grammar": {
+      "parent_question_id": "q003_missing_package",
+      "variant_type": "grammar",
+      "control_median_ms": 398.4865,
+      "variant_median_ms": 398.222,
+      "median_difference_ms": -0.2644999999999982,
+      "median_percentage_difference": -0.06637615076043936,
+      "paired_mean_difference_ms": -7.721200000000005,
+      "paired_difference_sd_ms": 21.523317860714076,
+      "paired_difference_approx_95ci_ms": [
+        -21.061490619753286,
+        5.619090619753278
+      ],
+      "decision_changes": 0,
+      "max_js_divergence_bits": 9.6408725144516e-07,
+      "mean_js_divergence_bits": 9.6408725144516e-07,
+      "max_probability_shift": 0.00027620792388916016,
+      "mean_confidence_difference": 0.00027620792388916016,
+      "input_token_difference_values": [
+        0
+      ]
+    },
+    "q003_missing_package::formatting": {
+      "parent_question_id": "q003_missing_package",
+      "variant_type": "formatting",
+      "control_median_ms": 398.4865,
+      "variant_median_ms": 395.323,
+      "median_difference_ms": -3.163499999999999,
+      "median_percentage_difference": -0.7938788390572828,
+      "paired_mean_difference_ms": -8.402200000000004,
+      "paired_difference_sd_ms": 21.365121295128557,
+      "paired_difference_approx_95ci_ms": [
+        -21.64443937256106,
+        4.840039372561053
+      ],
+      "decision_changes": 0,
+      "max_js_divergence_bits": 1.0273925515211956e-05,
+      "mean_js_divergence_bits": 1.0273925515211956e-05,
+      "max_probability_shift": 0.0009652972221374512,
+      "mean_confidence_difference": -0.0009652972221374512,
+      "input_token_difference_values": [
+        0
+      ]
+    },
+    "q003_missing_package::paraphrase": {
+      "parent_question_id": "q003_missing_package",
+      "variant_type": "paraphrase",
+      "control_median_ms": 398.4865,
+      "variant_median_ms": 398.6675,
+      "median_difference_ms": 0.18100000000004002,
+      "median_percentage_difference": 0.045421864981634266,
+      "paired_mean_difference_ms": -6.331100000000009,
+      "paired_difference_sd_ms": 25.02411280900439,
+      "paired_difference_approx_95ci_ms": [
+        -21.84120580868381,
+        9.179005808683794
+      ],
+      "decision_changes": 0,
+      "max_js_divergence_bits": 5.6385050124668464e-05,
+      "mean_js_divergence_bits": 5.6385050124668464e-05,
+      "max_probability_shift": 0.0016940748319029808,
+      "mean_confidence_difference": -0.0015166401863098145,
+      "input_token_difference_values": [
+        -2
+      ]
+    },
+    "q003_missing_package::additional_detail": {
+      "parent_question_id": "q003_missing_package",
+      "variant_type": "additional_detail",
+      "control_median_ms": 398.4865,
+      "variant_median_ms": 412.6565,
+      "median_difference_ms": 14.170000000000016,
+      "median_percentage_difference": 3.5559548441415245,
+      "paired_mean_difference_ms": 14.570699999999999,
+      "paired_difference_sd_ms": 44.652815558981764,
+      "paired_difference_approx_95ci_ms": [
+        -13.105401816734261,
+        42.24680181673426
+      ],
+      "decision_changes": 0,
+      "max_js_divergence_bits": 5.277661100067834e-05,
+      "mean_js_divergence_bits": 5.277661100067834e-05,
+      "max_probability_shift": 0.002008974552154541,
+      "mean_confidence_difference": 0.002008974552154541,
+      "input_token_difference_values": [
+        6
+      ]
+    },
+    "q004_invoice_copy::spelling": {
+      "parent_question_id": "q004_invoice_copy",
+      "variant_type": "spelling",
+      "control_median_ms": 375.98299999999995,
+      "variant_median_ms": 378.8425,
+      "median_difference_ms": 2.8595000000000255,
+      "median_percentage_difference": 0.760539705252638,
+      "paired_mean_difference_ms": 10.123900000000003,
+      "paired_difference_sd_ms": 19.254338999877984,
+      "paired_difference_approx_95ci_ms": [
+        -1.8100629518020899,
+        22.057862951802093
+      ],
+      "decision_changes": 0,
+      "max_js_divergence_bits": 1.633848751945687e-05,
+      "mean_js_divergence_bits": 1.633848751945687e-05,
+      "max_probability_shift": 0.0007436275482177734,
+      "mean_confidence_difference": -0.0007436275482177734,
+      "input_token_difference_values": [
+        1
+      ]
+    },
+    "q004_invoice_copy::grammar": {
+      "parent_question_id": "q004_invoice_copy",
+      "variant_type": "grammar",
+      "control_median_ms": 375.98299999999995,
+      "variant_median_ms": 365.8065,
+      "median_difference_ms": -10.176499999999919,
+      "median_percentage_difference": -2.706638332052226,
+      "paired_mean_difference_ms": -8.646699999999987,
+      "paired_difference_sd_ms": 16.512955856606112,
+      "paired_difference_approx_95ci_ms": [
+        -18.88153607610364,
+        1.588136076103666
+      ],
+      "decision_changes": 0,
+      "max_js_divergence_bits": 9.264775618994647e-06,
+      "mean_js_divergence_bits": 9.264775618994647e-06,
+      "max_probability_shift": 0.0005376338958740234,
+      "mean_confidence_difference": -0.0005376338958740234,
+      "input_token_difference_values": [
+        -1
+      ]
+    },
+    "q004_invoice_copy::formatting": {
+      "parent_question_id": "q004_invoice_copy",
+      "variant_type": "formatting",
+      "control_median_ms": 375.98299999999995,
+      "variant_median_ms": 374.7985,
+      "median_difference_ms": -1.1844999999999573,
+      "median_percentage_difference": -0.31504083961241797,
+      "paired_mean_difference_ms": -2.5925999999999987,
+      "paired_difference_sd_ms": 19.07651948921034,
+      "paired_difference_approx_95ci_ms": [
+        -14.416349277241325,
+        9.231149277241327
+      ],
+      "decision_changes": 0,
+      "max_js_divergence_bits": 6.902949578947669e-06,
+      "mean_js_divergence_bits": 6.902949578947669e-06,
+      "max_probability_shift": 0.00047278404235839844,
+      "mean_confidence_difference": -0.00047278404235839844,
+      "input_token_difference_values": [
+        0
+      ]
+    },
+    "q004_invoice_copy::paraphrase": {
+      "parent_question_id": "q004_invoice_copy",
+      "variant_type": "paraphrase",
+      "control_median_ms": 375.98299999999995,
+      "variant_median_ms": 2539.5825,
+      "median_difference_ms": 2163.5995000000003,
+      "median_percentage_difference": 575.4514166863928,
+      "paired_mean_difference_ms": 2155.351,
+      "paired_difference_sd_ms": 115.52319412327743,
+      "paired_difference_approx_95ci_ms": [
+        2083.7489824625623,
+        2226.953017537438
+      ],
+      "decision_changes": 0,
+      "max_js_divergence_bits": 0.00032583378275528955,
+      "mean_js_divergence_bits": 0.00032583378275528955,
+      "max_probability_shift": 0.001764496322721243,
+      "mean_confidence_difference": 0.0008910298347473145,
+      "input_token_difference_values": [
+        -2
+      ]
+    },
+    "q004_invoice_copy::additional_detail": {
+      "parent_question_id": "q004_invoice_copy",
+      "variant_type": "additional_detail",
+      "control_median_ms": 375.98299999999995,
+      "variant_median_ms": 393.1575,
+      "median_difference_ms": 17.17450000000008,
+      "median_percentage_difference": 4.567892697276228,
+      "paired_mean_difference_ms": 17.5397,
+      "paired_difference_sd_ms": 18.193204067270095,
+      "paired_difference_approx_95ci_ms": [
+        6.263435293392707,
+        28.815964706607293
+      ],
+      "decision_changes": 0,
+      "max_js_divergence_bits": 3.741141129731237e-05,
+      "mean_js_divergence_bits": 3.741141129731237e-05,
+      "max_probability_shift": 0.0007121895905584097,
+      "mean_confidence_difference": -0.0003262758255004883,
+      "input_token_difference_values": [
+        8
+      ]
+    }
+  },
+  "token_analysis": {
+    "available_count": 240,
+    "values": [
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      109,
+      111,
+      112,
+      113,
+      114,
+      117
+    ],
+    "pearson_correlation_with_latency": -0.21842370734266645
+  },
+  "failures": [],
+  "semantic_equivalence_status": {
+    "q001_billing_duplicate__control": "identical",
+    "q001_billing_duplicate__spelling": "likely_equivalent_review_required",
+    "q001_billing_duplicate__grammar": "likely_equivalent_review_required",
+    "q001_billing_duplicate__formatting": "likely_equivalent_review_required",
+    "q001_billing_duplicate__paraphrase": "likely_equivalent_review_required",
+    "q001_billing_duplicate__additional_detail": "likely_equivalent_review_required",
+    "q002_password_lockout__control": "identical",
+    "q002_password_lockout__spelling": "likely_equivalent_review_required",
+    "q002_password_lockout__grammar": "likely_equivalent_review_required",
+    "q002_password_lockout__formatting": "likely_equivalent_review_required",
+    "q002_password_lockout__paraphrase": "likely_equivalent_review_required",
+    "q002_password_lockout__additional_detail": "likely_equivalent_review_required",
+    "q003_missing_package__control": "identical",
+    "q003_missing_package__spelling": "likely_equivalent_review_required",
+    "q003_missing_package__grammar": "likely_equivalent_review_required",
+    "q003_missing_package__formatting": "likely_equivalent_review_required",
+    "q003_missing_package__paraphrase": "likely_equivalent_review_required",
+    "q003_missing_package__additional_detail": "likely_equivalent_review_required",
+    "q004_invoice_copy__control": "identical",
+    "q004_invoice_copy__spelling": "likely_equivalent_review_required",
+    "q004_invoice_copy__grammar": "likely_equivalent_review_required",
+    "q004_invoice_copy__formatting": "likely_equivalent_review_required",
+    "q004_invoice_copy__paraphrase": "likely_equivalent_review_required",
+    "q004_invoice_copy__additional_detail": "likely_equivalent_review_required"
+  }
+}

@@ -1,0 +1,323 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<style>text{font-family:Arial,sans-serif;fill:#202124}.title{font-size:22px;font-weight:700}.axis{font-size:14px}.tick{font-size:11px}.caption{font-size:12px;fill:#4a4a4a}.grid{stroke:#d9dde3;stroke-width:1}.axisline{stroke:#202124;stroke-width:1.5}</style>
+<text x="600.0" y="32" text-anchor="middle" class="title">Fast/slow regime transition frequency</text>
+<text x="240.00" y="90.56" text-anchor="end" class="tick">q001 additional_detail</text>
+<rect x="250.00" y="75.00" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="326.25" y="90.56" text-anchor="middle" class="tick">1.0</text>
+<rect x="402.50" y="75.00" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="478.75" y="90.56" text-anchor="middle" class="tick">0.0</text>
+<rect x="555.00" y="75.00" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="631.25" y="90.56" text-anchor="middle" class="tick">1.0</text>
+<rect x="707.50" y="75.00" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="783.75" y="90.56" text-anchor="middle" class="tick">1.0</text>
+<rect x="860.00" y="75.00" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="936.25" y="90.56" text-anchor="middle" class="tick">1.0</text>
+<rect x="1012.50" y="75.00" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="1088.75" y="90.56" text-anchor="middle" class="tick">1.0</text>
+<text x="240.00" y="113.69" text-anchor="end" class="tick">q001 control</text>
+<rect x="250.00" y="98.12" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="326.25" y="113.69" text-anchor="middle" class="tick">1.0</text>
+<rect x="402.50" y="98.12" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="478.75" y="113.69" text-anchor="middle" class="tick">0.0</text>
+<rect x="555.00" y="98.12" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="631.25" y="113.69" text-anchor="middle" class="tick">1.0</text>
+<rect x="707.50" y="98.12" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="783.75" y="113.69" text-anchor="middle" class="tick">1.0</text>
+<rect x="860.00" y="98.12" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="936.25" y="113.69" text-anchor="middle" class="tick">1.0</text>
+<rect x="1012.50" y="98.12" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="1088.75" y="113.69" text-anchor="middle" class="tick">1.0</text>
+<text x="240.00" y="136.81" text-anchor="end" class="tick">q001 formatting</text>
+<rect x="250.00" y="121.25" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="326.25" y="136.81" text-anchor="middle" class="tick">1.0</text>
+<rect x="402.50" y="121.25" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="478.75" y="136.81" text-anchor="middle" class="tick">0.0</text>
+<rect x="555.00" y="121.25" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="631.25" y="136.81" text-anchor="middle" class="tick">1.0</text>
+<rect x="707.50" y="121.25" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="783.75" y="136.81" text-anchor="middle" class="tick">1.0</text>
+<rect x="860.00" y="121.25" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="936.25" y="136.81" text-anchor="middle" class="tick">1.0</text>
+<rect x="1012.50" y="121.25" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="1088.75" y="136.81" text-anchor="middle" class="tick">1.0</text>
+<text x="240.00" y="159.94" text-anchor="end" class="tick">q001 grammar</text>
+<rect x="250.00" y="144.38" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="326.25" y="159.94" text-anchor="middle" class="tick">1.0</text>
+<rect x="402.50" y="144.38" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="478.75" y="159.94" text-anchor="middle" class="tick">0.0</text>
+<rect x="555.00" y="144.38" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="631.25" y="159.94" text-anchor="middle" class="tick">1.0</text>
+<rect x="707.50" y="144.38" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="783.75" y="159.94" text-anchor="middle" class="tick">1.0</text>
+<rect x="860.00" y="144.38" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="936.25" y="159.94" text-anchor="middle" class="tick">1.0</text>
+<rect x="1012.50" y="144.38" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="1088.75" y="159.94" text-anchor="middle" class="tick">1.0</text>
+<text x="240.00" y="183.06" text-anchor="end" class="tick">q001 paraphrase</text>
+<rect x="250.00" y="167.50" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="326.25" y="183.06" text-anchor="middle" class="tick">1.0</text>
+<rect x="402.50" y="167.50" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="478.75" y="183.06" text-anchor="middle" class="tick">0.0</text>
+<rect x="555.00" y="167.50" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="631.25" y="183.06" text-anchor="middle" class="tick">1.0</text>
+<rect x="707.50" y="167.50" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="783.75" y="183.06" text-anchor="middle" class="tick">1.0</text>
+<rect x="860.00" y="167.50" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="936.25" y="183.06" text-anchor="middle" class="tick">1.0</text>
+<rect x="1012.50" y="167.50" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="1088.75" y="183.06" text-anchor="middle" class="tick">1.0</text>
+<text x="240.00" y="206.19" text-anchor="end" class="tick">q001 spelling</text>
+<rect x="250.00" y="190.62" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="326.25" y="206.19" text-anchor="middle" class="tick">1.0</text>
+<rect x="402.50" y="190.62" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="478.75" y="206.19" text-anchor="middle" class="tick">0.0</text>
+<rect x="555.00" y="190.62" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="631.25" y="206.19" text-anchor="middle" class="tick">1.0</text>
+<rect x="707.50" y="190.62" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="783.75" y="206.19" text-anchor="middle" class="tick">1.0</text>
+<rect x="860.00" y="190.62" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="936.25" y="206.19" text-anchor="middle" class="tick">1.0</text>
+<rect x="1012.50" y="190.62" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="1088.75" y="206.19" text-anchor="middle" class="tick">1.0</text>
+<text x="240.00" y="229.31" text-anchor="end" class="tick">q002 additional_detail</text>
+<rect x="250.00" y="213.75" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="326.25" y="229.31" text-anchor="middle" class="tick">1.0</text>
+<rect x="402.50" y="213.75" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="478.75" y="229.31" text-anchor="middle" class="tick">1.0</text>
+<rect x="555.00" y="213.75" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="631.25" y="229.31" text-anchor="middle" class="tick">1.0</text>
+<rect x="707.50" y="213.75" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="783.75" y="229.31" text-anchor="middle" class="tick">1.0</text>
+<rect x="860.00" y="213.75" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="936.25" y="229.31" text-anchor="middle" class="tick">1.0</text>
+<rect x="1012.50" y="213.75" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="1088.75" y="229.31" text-anchor="middle" class="tick">1.0</text>
+<text x="240.00" y="252.44" text-anchor="end" class="tick">q002 control</text>
+<rect x="250.00" y="236.88" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="326.25" y="252.44" text-anchor="middle" class="tick">1.0</text>
+<rect x="402.50" y="236.88" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="478.75" y="252.44" text-anchor="middle" class="tick">1.0</text>
+<rect x="555.00" y="236.88" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="631.25" y="252.44" text-anchor="middle" class="tick">1.0</text>
+<rect x="707.50" y="236.88" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="783.75" y="252.44" text-anchor="middle" class="tick">1.0</text>
+<rect x="860.00" y="236.88" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="936.25" y="252.44" text-anchor="middle" class="tick">1.0</text>
+<rect x="1012.50" y="236.88" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="1088.75" y="252.44" text-anchor="middle" class="tick">1.0</text>
+<text x="240.00" y="275.56" text-anchor="end" class="tick">q002 formatting</text>
+<rect x="250.00" y="260.00" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="326.25" y="275.56" text-anchor="middle" class="tick">1.0</text>
+<rect x="402.50" y="260.00" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="478.75" y="275.56" text-anchor="middle" class="tick">1.0</text>
+<rect x="555.00" y="260.00" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="631.25" y="275.56" text-anchor="middle" class="tick">1.0</text>
+<rect x="707.50" y="260.00" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="783.75" y="275.56" text-anchor="middle" class="tick">1.0</text>
+<rect x="860.00" y="260.00" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="936.25" y="275.56" text-anchor="middle" class="tick">1.0</text>
+<rect x="1012.50" y="260.00" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="1088.75" y="275.56" text-anchor="middle" class="tick">1.0</text>
+<text x="240.00" y="298.69" text-anchor="end" class="tick">q002 grammar</text>
+<rect x="250.00" y="283.12" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="326.25" y="298.69" text-anchor="middle" class="tick">1.0</text>
+<rect x="402.50" y="283.12" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="478.75" y="298.69" text-anchor="middle" class="tick">1.0</text>
+<rect x="555.00" y="283.12" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="631.25" y="298.69" text-anchor="middle" class="tick">1.0</text>
+<rect x="707.50" y="283.12" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="783.75" y="298.69" text-anchor="middle" class="tick">1.0</text>
+<rect x="860.00" y="283.12" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="936.25" y="298.69" text-anchor="middle" class="tick">1.0</text>
+<rect x="1012.50" y="283.12" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="1088.75" y="298.69" text-anchor="middle" class="tick">1.0</text>
+<text x="240.00" y="321.81" text-anchor="end" class="tick">q002 paraphrase</text>
+<rect x="250.00" y="306.25" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="326.25" y="321.81" text-anchor="middle" class="tick">1.0</text>
+<rect x="402.50" y="306.25" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="478.75" y="321.81" text-anchor="middle" class="tick">1.0</text>
+<rect x="555.00" y="306.25" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="631.25" y="321.81" text-anchor="middle" class="tick">1.0</text>
+<rect x="707.50" y="306.25" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="783.75" y="321.81" text-anchor="middle" class="tick">1.0</text>
+<rect x="860.00" y="306.25" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="936.25" y="321.81" text-anchor="middle" class="tick">1.0</text>
+<rect x="1012.50" y="306.25" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="1088.75" y="321.81" text-anchor="middle" class="tick">1.0</text>
+<text x="240.00" y="344.94" text-anchor="end" class="tick">q002 spelling</text>
+<rect x="250.00" y="329.38" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="326.25" y="344.94" text-anchor="middle" class="tick">1.0</text>
+<rect x="402.50" y="329.38" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="478.75" y="344.94" text-anchor="middle" class="tick">1.0</text>
+<rect x="555.00" y="329.38" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="631.25" y="344.94" text-anchor="middle" class="tick">1.0</text>
+<rect x="707.50" y="329.38" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="783.75" y="344.94" text-anchor="middle" class="tick">1.0</text>
+<rect x="860.00" y="329.38" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="936.25" y="344.94" text-anchor="middle" class="tick">1.0</text>
+<rect x="1012.50" y="329.38" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="1088.75" y="344.94" text-anchor="middle" class="tick">1.0</text>
+<text x="240.00" y="368.06" text-anchor="end" class="tick">q003 additional_detail</text>
+<rect x="250.00" y="352.50" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="326.25" y="368.06" text-anchor="middle" class="tick">0.0</text>
+<rect x="402.50" y="352.50" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="478.75" y="368.06" text-anchor="middle" class="tick">0.0</text>
+<rect x="555.00" y="352.50" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="631.25" y="368.06" text-anchor="middle" class="tick">0.0</text>
+<rect x="707.50" y="352.50" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="783.75" y="368.06" text-anchor="middle" class="tick">0.0</text>
+<rect x="860.00" y="352.50" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="936.25" y="368.06" text-anchor="middle" class="tick">0.0</text>
+<rect x="1012.50" y="352.50" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="1088.75" y="368.06" text-anchor="middle" class="tick">0.0</text>
+<text x="240.00" y="391.19" text-anchor="end" class="tick">q003 control</text>
+<rect x="250.00" y="375.62" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="326.25" y="391.19" text-anchor="middle" class="tick">0.0</text>
+<rect x="402.50" y="375.62" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="478.75" y="391.19" text-anchor="middle" class="tick">0.0</text>
+<rect x="555.00" y="375.62" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="631.25" y="391.19" text-anchor="middle" class="tick">0.0</text>
+<rect x="707.50" y="375.62" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="783.75" y="391.19" text-anchor="middle" class="tick">0.0</text>
+<rect x="860.00" y="375.62" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="936.25" y="391.19" text-anchor="middle" class="tick">0.0</text>
+<rect x="1012.50" y="375.62" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="1088.75" y="391.19" text-anchor="middle" class="tick">0.0</text>
+<text x="240.00" y="414.31" text-anchor="end" class="tick">q003 formatting</text>
+<rect x="250.00" y="398.75" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="326.25" y="414.31" text-anchor="middle" class="tick">0.0</text>
+<rect x="402.50" y="398.75" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="478.75" y="414.31" text-anchor="middle" class="tick">0.0</text>
+<rect x="555.00" y="398.75" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="631.25" y="414.31" text-anchor="middle" class="tick">0.0</text>
+<rect x="707.50" y="398.75" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="783.75" y="414.31" text-anchor="middle" class="tick">0.0</text>
+<rect x="860.00" y="398.75" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="936.25" y="414.31" text-anchor="middle" class="tick">0.0</text>
+<rect x="1012.50" y="398.75" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="1088.75" y="414.31" text-anchor="middle" class="tick">0.0</text>
+<text x="240.00" y="437.44" text-anchor="end" class="tick">q003 grammar</text>
+<rect x="250.00" y="421.88" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="326.25" y="437.44" text-anchor="middle" class="tick">0.0</text>
+<rect x="402.50" y="421.88" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="478.75" y="437.44" text-anchor="middle" class="tick">0.0</text>
+<rect x="555.00" y="421.88" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="631.25" y="437.44" text-anchor="middle" class="tick">0.0</text>
+<rect x="707.50" y="421.88" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="783.75" y="437.44" text-anchor="middle" class="tick">0.0</text>
+<rect x="860.00" y="421.88" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="936.25" y="437.44" text-anchor="middle" class="tick">0.0</text>
+<rect x="1012.50" y="421.88" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="1088.75" y="437.44" text-anchor="middle" class="tick">0.0</text>
+<text x="240.00" y="460.56" text-anchor="end" class="tick">q003 paraphrase</text>
+<rect x="250.00" y="445.00" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="326.25" y="460.56" text-anchor="middle" class="tick">0.0</text>
+<rect x="402.50" y="445.00" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="478.75" y="460.56" text-anchor="middle" class="tick">0.0</text>
+<rect x="555.00" y="445.00" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="631.25" y="460.56" text-anchor="middle" class="tick">0.0</text>
+<rect x="707.50" y="445.00" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="783.75" y="460.56" text-anchor="middle" class="tick">0.0</text>
+<rect x="860.00" y="445.00" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="936.25" y="460.56" text-anchor="middle" class="tick">0.0</text>
+<rect x="1012.50" y="445.00" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="1088.75" y="460.56" text-anchor="middle" class="tick">0.0</text>
+<text x="240.00" y="483.69" text-anchor="end" class="tick">q003 spelling</text>
+<rect x="250.00" y="468.12" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="326.25" y="483.69" text-anchor="middle" class="tick">0.0</text>
+<rect x="402.50" y="468.12" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="478.75" y="483.69" text-anchor="middle" class="tick">0.0</text>
+<rect x="555.00" y="468.12" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="631.25" y="483.69" text-anchor="middle" class="tick">0.0</text>
+<rect x="707.50" y="468.12" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="783.75" y="483.69" text-anchor="middle" class="tick">0.0</text>
+<rect x="860.00" y="468.12" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="936.25" y="483.69" text-anchor="middle" class="tick">0.0</text>
+<rect x="1012.50" y="468.12" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="1088.75" y="483.69" text-anchor="middle" class="tick">0.0</text>
+<text x="240.00" y="506.81" text-anchor="end" class="tick">q004 additional_detail</text>
+<rect x="250.00" y="491.25" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="326.25" y="506.81" text-anchor="middle" class="tick">0.0</text>
+<rect x="402.50" y="491.25" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="478.75" y="506.81" text-anchor="middle" class="tick">0.0</text>
+<rect x="555.00" y="491.25" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="631.25" y="506.81" text-anchor="middle" class="tick">0.0</text>
+<rect x="707.50" y="491.25" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="783.75" y="506.81" text-anchor="middle" class="tick">0.0</text>
+<rect x="860.00" y="491.25" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="936.25" y="506.81" text-anchor="middle" class="tick">1.0</text>
+<rect x="1012.50" y="491.25" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="1088.75" y="506.81" text-anchor="middle" class="tick">0.0</text>
+<text x="240.00" y="529.94" text-anchor="end" class="tick">q004 control</text>
+<rect x="250.00" y="514.38" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="326.25" y="529.94" text-anchor="middle" class="tick">0.0</text>
+<rect x="402.50" y="514.38" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="478.75" y="529.94" text-anchor="middle" class="tick">0.0</text>
+<rect x="555.00" y="514.38" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="631.25" y="529.94" text-anchor="middle" class="tick">0.0</text>
+<rect x="707.50" y="514.38" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="783.75" y="529.94" text-anchor="middle" class="tick">0.0</text>
+<rect x="860.00" y="514.38" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="936.25" y="529.94" text-anchor="middle" class="tick">1.0</text>
+<rect x="1012.50" y="514.38" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="1088.75" y="529.94" text-anchor="middle" class="tick">0.0</text>
+<text x="240.00" y="553.06" text-anchor="end" class="tick">q004 formatting</text>
+<rect x="250.00" y="537.50" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="326.25" y="553.06" text-anchor="middle" class="tick">0.0</text>
+<rect x="402.50" y="537.50" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="478.75" y="553.06" text-anchor="middle" class="tick">0.0</text>
+<rect x="555.00" y="537.50" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="631.25" y="553.06" text-anchor="middle" class="tick">0.0</text>
+<rect x="707.50" y="537.50" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="783.75" y="553.06" text-anchor="middle" class="tick">0.0</text>
+<rect x="860.00" y="537.50" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="936.25" y="553.06" text-anchor="middle" class="tick">1.0</text>
+<rect x="1012.50" y="537.50" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="1088.75" y="553.06" text-anchor="middle" class="tick">0.0</text>
+<text x="240.00" y="576.19" text-anchor="end" class="tick">q004 grammar</text>
+<rect x="250.00" y="560.62" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="326.25" y="576.19" text-anchor="middle" class="tick">0.0</text>
+<rect x="402.50" y="560.62" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="478.75" y="576.19" text-anchor="middle" class="tick">0.0</text>
+<rect x="555.00" y="560.62" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="631.25" y="576.19" text-anchor="middle" class="tick">0.0</text>
+<rect x="707.50" y="560.62" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="783.75" y="576.19" text-anchor="middle" class="tick">0.0</text>
+<rect x="860.00" y="560.62" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="936.25" y="576.19" text-anchor="middle" class="tick">1.0</text>
+<rect x="1012.50" y="560.62" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="1088.75" y="576.19" text-anchor="middle" class="tick">0.0</text>
+<text x="240.00" y="599.31" text-anchor="end" class="tick">q004 paraphrase</text>
+<rect x="250.00" y="583.75" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="326.25" y="599.31" text-anchor="middle" class="tick">0.0</text>
+<rect x="402.50" y="583.75" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="478.75" y="599.31" text-anchor="middle" class="tick">0.0</text>
+<rect x="555.00" y="583.75" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="631.25" y="599.31" text-anchor="middle" class="tick">0.0</text>
+<rect x="707.50" y="583.75" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="783.75" y="599.31" text-anchor="middle" class="tick">0.0</text>
+<rect x="860.00" y="583.75" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="936.25" y="599.31" text-anchor="middle" class="tick">1.0</text>
+<rect x="1012.50" y="583.75" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="1088.75" y="599.31" text-anchor="middle" class="tick">0.0</text>
+<text x="240.00" y="622.44" text-anchor="end" class="tick">q004 spelling</text>
+<rect x="250.00" y="606.88" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="326.25" y="622.44" text-anchor="middle" class="tick">0.0</text>
+<rect x="402.50" y="606.88" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="478.75" y="622.44" text-anchor="middle" class="tick">0.0</text>
+<rect x="555.00" y="606.88" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="631.25" y="622.44" text-anchor="middle" class="tick">0.0</text>
+<rect x="707.50" y="606.88" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="783.75" y="622.44" text-anchor="middle" class="tick">0.0</text>
+<rect x="860.00" y="606.88" width="152.50" height="23.12" fill="#b91c1c" stroke="white"/>
+<text x="936.25" y="622.44" text-anchor="middle" class="tick">1.0</text>
+<rect x="1012.50" y="606.88" width="152.50" height="23.12" fill="#dbeafe" stroke="white"/>
+<text x="1088.75" y="622.44" text-anchor="middle" class="tick">0.0</text>
+<text x="326.25" y="60.00" text-anchor="middle" class="tick">control</text>
+<text x="478.75" y="60.00" text-anchor="middle" class="tick">spelling</text>
+<text x="631.25" y="60.00" text-anchor="middle" class="tick">grammar</text>
+<text x="783.75" y="60.00" text-anchor="middle" class="tick">formatting</text>
+<text x="936.25" y="60.00" text-anchor="middle" class="tick">paraphrase</text>
+<text x="1088.75" y="60.00" text-anchor="middle" class="tick">additional_detail</text>
+<text x="600.00" y="680.00" text-anchor="middle" class="caption">Slow fraction at threshold 1380.289 ms</text>
+</svg>

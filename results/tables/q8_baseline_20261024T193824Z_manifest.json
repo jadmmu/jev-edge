@@ -1,0 +1,25 @@
+{
+  "run_id": "20261024T193824Z",
+  "source_files": {
+    "results\\raw\\q8_baseline_20261024T193824Z.jsonl": {
+      "sha256": "8e1cc5488293cbe36cfc9357686e660adb04ca7b52a290be7656c58267dd9151",
+      "bytes": 259338
+    },
+    "results\\q8_baseline_20261024T193824Z.csv": {
+      "sha256": "a2ee991f8667d1341adbeff54305f558c44a98b87d772bf554b230fba9e23a2a",
+      "bytes": 176294
+    },
+    "results\\tables\\q8_baseline_20261024T193824Z.json": {
+      "sha256": "6ddcf36efe8f88196ca1d152641731a69cfd70d8a15e0f180d6a5ad37824ba7c",
+      "bytes": 5783
+    }
+  },
+  "record_counts": {
+    "metadata": 1,
+    "summary": 1,
+    "observations": 220,
+    "warmups": 20,
+    "measured": 200
+  },
+  "source_files_unchanged_during_analysis": true
+}

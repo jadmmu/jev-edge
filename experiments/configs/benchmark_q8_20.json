@@ -1,0 +1,20 @@
+{
+  "name": "q8_fixed_20",
+  "dataset": "experiments/datasets/benchmark_20.jsonl",
+  "endpoint": "http://127.0.0.1:8090/v1/systemone",
+  "model": "startlux-q8",
+  "repeats": 1,
+  "warmup_trials_per_question": 1,
+  "timeout_seconds": 300,
+  "outputs": {
+    "jsonl": "results/raw/q8_fixed_20.jsonl",
+    "csv": "results/q8_fixed_20.csv",
+    "summary": "results/tables/q8_fixed_20_summary.json"
+  },
+  "ground_truth": {
+    "available_records": 18,
+    "unavailable_records": 2,
+    "field": "ground_truth",
+    "status_field": "ground_truth_status"
+  }
+}

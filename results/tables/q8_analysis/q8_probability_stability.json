@@ -1,0 +1,362 @@
+{
+  "q001_billing_duplicate": {
+    "distribution_type": "choice",
+    "labels": [
+      "billing",
+      "shipping",
+      "technical"
+    ],
+    "comparable_repetitions": 10,
+    "exact_distribution_agreement": true,
+    "max_js_divergence_bits": 0.0,
+    "mean_pairwise_js_divergence_bits": 0.0,
+    "max_probability_shift": 0.0,
+    "mean_pairwise_max_probability_shift": 0.0,
+    "selected_answer_agreement": 1.0,
+    "selected_answers": {
+      "billing": 10
+    }
+  },
+  "q002_password_lockout": {
+    "distribution_type": "choice",
+    "labels": [
+      "billing",
+      "shipping",
+      "technical"
+    ],
+    "comparable_repetitions": 10,
+    "exact_distribution_agreement": true,
+    "max_js_divergence_bits": 0.0,
+    "mean_pairwise_js_divergence_bits": 0.0,
+    "max_probability_shift": 0.0,
+    "mean_pairwise_max_probability_shift": 0.0,
+    "selected_answer_agreement": 1.0,
+    "selected_answers": {
+      "technical": 10
+    }
+  },
+  "q003_missing_package": {
+    "distribution_type": "choice",
+    "labels": [
+      "billing",
+      "shipping",
+      "technical"
+    ],
+    "comparable_repetitions": 10,
+    "exact_distribution_agreement": true,
+    "max_js_divergence_bits": 0.0,
+    "mean_pairwise_js_divergence_bits": 0.0,
+    "max_probability_shift": 0.0,
+    "mean_pairwise_max_probability_shift": 0.0,
+    "selected_answer_agreement": 1.0,
+    "selected_answers": {
+      "shipping": 10
+    }
+  },
+  "q004_invoice_copy": {
+    "distribution_type": "choice",
+    "labels": [
+      "billing",
+      "shipping",
+      "technical"
+    ],
+    "comparable_repetitions": 10,
+    "exact_distribution_agreement": true,
+    "max_js_divergence_bits": 0.0,
+    "mean_pairwise_js_divergence_bits": 0.0,
+    "max_probability_shift": 0.0,
+    "mean_pairwise_max_probability_shift": 0.0,
+    "selected_answer_agreement": 1.0,
+    "selected_answers": {
+      "billing": 10
+    }
+  },
+  "q005_app_crash": {
+    "distribution_type": "choice",
+    "labels": [
+      "billing",
+      "shipping",
+      "technical"
+    ],
+    "comparable_repetitions": 10,
+    "exact_distribution_agreement": true,
+    "max_js_divergence_bits": 0.0,
+    "mean_pairwise_js_divergence_bits": 0.0,
+    "max_probability_shift": 0.0,
+    "mean_pairwise_max_probability_shift": 0.0,
+    "selected_answer_agreement": 1.0,
+    "selected_answers": {
+      "technical": 10
+    }
+  },
+  "q006_address_change": {
+    "distribution_type": "choice",
+    "labels": [
+      "billing",
+      "shipping",
+      "technical"
+    ],
+    "comparable_repetitions": 10,
+    "exact_distribution_agreement": true,
+    "max_js_divergence_bits": 0.0,
+    "mean_pairwise_js_divergence_bits": 0.0,
+    "max_probability_shift": 0.0,
+    "mean_pairwise_max_probability_shift": 0.0,
+    "selected_answer_agreement": 1.0,
+    "selected_answers": {
+      "shipping": 10
+    }
+  },
+  "q007_refund_status": {
+    "distribution_type": "choice",
+    "labels": [
+      "billing",
+      "shipping",
+      "technical"
+    ],
+    "comparable_repetitions": 10,
+    "exact_distribution_agreement": true,
+    "max_js_divergence_bits": 0.0,
+    "mean_pairwise_js_divergence_bits": 0.0,
+    "max_probability_shift": 0.0,
+    "mean_pairwise_max_probability_shift": 0.0,
+    "selected_answer_agreement": 1.0,
+    "selected_answers": {
+      "billing": 10
+    }
+  },
+  "q008_tracking_link": {
+    "distribution_type": "choice",
+    "labels": [
+      "billing",
+      "shipping",
+      "technical"
+    ],
+    "comparable_repetitions": 10,
+    "exact_distribution_agreement": true,
+    "max_js_divergence_bits": 0.0,
+    "mean_pairwise_js_divergence_bits": 0.0,
+    "max_probability_shift": 0.0,
+    "mean_pairwise_max_probability_shift": 0.0,
+    "selected_answer_agreement": 1.0,
+    "selected_answers": {
+      "shipping": 10
+    }
+  },
+  "q009_two_factor": {
+    "distribution_type": "choice",
+    "labels": [
+      "billing",
+      "shipping",
+      "technical"
+    ],
+    "comparable_repetitions": 10,
+    "exact_distribution_agreement": true,
+    "max_js_divergence_bits": 0.0,
+    "mean_pairwise_js_divergence_bits": 0.0,
+    "max_probability_shift": 0.0,
+    "mean_pairwise_max_probability_shift": 0.0,
+    "selected_answer_agreement": 1.0,
+    "selected_answers": {
+      "technical": 10
+    }
+  },
+  "q010_subscription_cancel": {
+    "distribution_type": "choice",
+    "labels": [
+      "billing",
+      "shipping",
+      "technical"
+    ],
+    "comparable_repetitions": 10,
+    "exact_distribution_agreement": true,
+    "max_js_divergence_bits": 0.0,
+    "mean_pairwise_js_divergence_bits": 0.0,
+    "max_probability_shift": 0.0,
+    "mean_pairwise_max_probability_shift": 0.0,
+    "selected_answer_agreement": 1.0,
+    "selected_answers": {
+      "billing": 10
+    }
+  },
+  "q011_delivery_window": {
+    "distribution_type": "choice",
+    "labels": [
+      "billing",
+      "shipping",
+      "technical"
+    ],
+    "comparable_repetitions": 10,
+    "exact_distribution_agreement": true,
+    "max_js_divergence_bits": 0.0,
+    "mean_pairwise_js_divergence_bits": 0.0,
+    "max_probability_shift": 0.0,
+    "mean_pairwise_max_probability_shift": 0.0,
+    "selected_answer_agreement": 1.0,
+    "selected_answers": {
+      "shipping": 10
+    }
+  },
+  "q012_browser_error": {
+    "distribution_type": "choice",
+    "labels": [
+      "billing",
+      "shipping",
+      "technical"
+    ],
+    "comparable_repetitions": 10,
+    "exact_distribution_agreement": true,
+    "max_js_divergence_bits": 0.0,
+    "mean_pairwise_js_divergence_bits": 0.0,
+    "max_probability_shift": 0.0,
+    "mean_pairwise_max_probability_shift": 0.0,
+    "selected_answer_agreement": 1.0,
+    "selected_answers": {
+      "technical": 10
+    }
+  },
+  "q013_card_declined": {
+    "distribution_type": "choice",
+    "labels": [
+      "billing",
+      "shipping",
+      "technical"
+    ],
+    "comparable_repetitions": 10,
+    "exact_distribution_agreement": true,
+    "max_js_divergence_bits": 0.0,
+    "mean_pairwise_js_divergence_bits": 0.0,
+    "max_probability_shift": 0.0,
+    "mean_pairwise_max_probability_shift": 0.0,
+    "selected_answer_agreement": 1.0,
+    "selected_answers": {
+      "billing": 10
+    }
+  },
+  "q014_damaged_delivery": {
+    "distribution_type": "choice",
+    "labels": [
+      "billing",
+      "shipping",
+      "technical"
+    ],
+    "comparable_repetitions": 10,
+    "exact_distribution_agreement": true,
+    "max_js_divergence_bits": 0.0,
+    "mean_pairwise_js_divergence_bits": 0.0,
+    "max_probability_shift": 0.0,
+    "mean_pairwise_max_probability_shift": 0.0,
+    "selected_answer_agreement": 1.0,
+    "selected_answers": {
+      "shipping": 10
+    }
+  },
+  "q015_notification_bug": {
+    "distribution_type": "choice",
+    "labels": [
+      "billing",
+      "shipping",
+      "technical"
+    ],
+    "comparable_repetitions": 10,
+    "exact_distribution_agreement": true,
+    "max_js_divergence_bits": 0.0,
+    "mean_pairwise_js_divergence_bits": 0.0,
+    "max_probability_shift": 0.0,
+    "mean_pairwise_max_probability_shift": 0.0,
+    "selected_answer_agreement": 1.0,
+    "selected_answers": {
+      "technical": 10
+    }
+  },
+  "q016_tax_receipt": {
+    "distribution_type": "choice",
+    "labels": [
+      "billing",
+      "shipping",
+      "technical"
+    ],
+    "comparable_repetitions": 10,
+    "exact_distribution_agreement": true,
+    "max_js_divergence_bits": 0.0,
+    "mean_pairwise_js_divergence_bits": 0.0,
+    "max_probability_shift": 0.0,
+    "mean_pairwise_max_probability_shift": 0.0,
+    "selected_answer_agreement": 1.0,
+    "selected_answers": {
+      "billing": 10
+    }
+  },
+  "q017_return_label": {
+    "distribution_type": "choice",
+    "labels": [
+      "billing",
+      "shipping",
+      "technical"
+    ],
+    "comparable_repetitions": 10,
+    "exact_distribution_agreement": true,
+    "max_js_divergence_bits": 0.0,
+    "mean_pairwise_js_divergence_bits": 0.0,
+    "max_probability_shift": 0.0,
+    "mean_pairwise_max_probability_shift": 0.0,
+    "selected_answer_agreement": 1.0,
+    "selected_answers": {
+      "shipping": 10
+    }
+  },
+  "q018_export_failure": {
+    "distribution_type": "choice",
+    "labels": [
+      "billing",
+      "shipping",
+      "technical"
+    ],
+    "comparable_repetitions": 10,
+    "exact_distribution_agreement": true,
+    "max_js_divergence_bits": 0.0,
+    "mean_pairwise_js_divergence_bits": 0.0,
+    "max_probability_shift": 0.0,
+    "mean_pairwise_max_probability_shift": 0.0,
+    "selected_answer_agreement": 1.0,
+    "selected_answers": {
+      "technical": 10
+    }
+  },
+  "q019_unknown_intent": {
+    "distribution_type": "choice",
+    "labels": [
+      "billing",
+      "shipping",
+      "technical"
+    ],
+    "comparable_repetitions": 10,
+    "exact_distribution_agreement": true,
+    "max_js_divergence_bits": 0.0,
+    "mean_pairwise_js_divergence_bits": 0.0,
+    "max_probability_shift": 0.0,
+    "mean_pairwise_max_probability_shift": 0.0,
+    "selected_answer_agreement": 1.0,
+    "selected_answers": {
+      "billing": 10
+    }
+  },
+  "q020_unknown_intent": {
+    "distribution_type": "choice",
+    "labels": [
+      "billing",
+      "shipping",
+      "technical"
+    ],
+    "comparable_repetitions": 10,
+    "exact_distribution_agreement": true,
+    "max_js_divergence_bits": 0.0,
+    "mean_pairwise_js_divergence_bits": 0.0,
+    "max_probability_shift": 0.0,
+    "mean_pairwise_max_probability_shift": 0.0,
+    "selected_answer_agreement": 1.0,
+    "selected_answers": {
+      "technical": 10
+    }
+  }
+}
